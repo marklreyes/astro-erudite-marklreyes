@@ -2,31 +2,20 @@
 
 <div align="center">
 
-## astro-erudite
+## astro-erudite-marklreyes
 
 ![Stargazers]
 [![License]](LICENSE)
 
 </div>
 
-astro-erudite is an opinionated, no-frills static blogging template built with [Astro](https://astro.build/), [Tailwind](https://tailwindcss.com/), and [shadcn/ui](https://ui.shadcn.com/). Extraordinarily loosely based off the [Astro Micro](https://astro-micro.vercel.app/) theme by [trevortylerlee](https://github.com/trevortylerlee).
+Bootstrapped on top of [astro-erudite](https://github.com/jktrn/astro-erudite), an opinionated, no-frills static blogging template built with [Astro](https://astro.build/), [Tailwind](https://tailwindcss.com/), and [shadcn/ui](https://ui.shadcn.com/). Extraordinarily loosely based off the [Astro Micro](https://astro-micro.vercel.app/) theme by [trevortylerlee](https://github.com/trevortylerlee).
 
 > [!NOTE]
 > To learn more about why this template exists, read [The State of Static Blogs in 2024](https://astro-erudite.vercel.app/blog/the-state-of-static-blogs), where I share my take on what constitutes a great blogging template and my goals while developing this one.
 
 ---
 
-## Community Examples
-
-Below are some fantastic examples of websites based on this template. If you wish to add your site to this list, open a pull request!
-
-| Site | Author | Description/Features | Source |
-|------|--------|----------------------|--------|
-| [enscribe.dev](https://enscribe.dev) | [@jktrn](https://github.com/jktrn) | Heavily modified bento-style homepage with client interactivity, with custom MDX components! | [→](https://github.com/jktrn/enscribe.dev) |
-| [emile.sh](https://emile.sh) | [@echoghi](https://github.com/echoghi) | A minimalist personal blog using the [flexoki](https://stephango.com/flexoki) theme | [→](https://github.com/echoghi/v5) |
-| [decentparadox.me](https://decentparadox.me) | [@decentparadox](https://github.com/decentparadox) | A heavily customized personal portfolio with a sci-fi theme! | [→](https://github.com/decentparadox/decentparadox.me) |
-| [flocto.github.io](https://flocto.github.io/) | [@flocto](https://github.com/flocto) | A slightly modified personal blog | [→](https://github.com/flocto/flocto.github.io) |
-[dumbprism.me](https://www.dumbprism.me/) | [@dumbprism](https://github.com/dumbprism) | A customized portfolio inspired by enscribe's bento grid style adding my gist of UI |  [→](https://github.com/dumbprism/dumbprism-portfolio) |  
 ## Features
 
 - [Astro](https://astro.build/)&rsquo;s [Islands](https://docs.astro.build/en/concepts/islands/) architecture for partial/selective hydration and client-side interactivity while maintaining a fast-to-render static site.
@@ -94,12 +83,12 @@ Edit the `src/consts.ts` file to update your site's metadata, navigation links, 
 
 ```typescript
 export const SITE: Site = {
-  TITLE: 'astro-erudite',
+  TITLE: 'Mark L. Reyes',
   DESCRIPTION:
     'astro-erudite is a opinionated, no-frills blogging template—built with Astro, Tailwind, and shadcn/ui.',
-  EMAIL: 'jason@enscribe.dev',
+  EMAIL: 'mr@marklreyes.com',
   NUM_POSTS_ON_HOMEPAGE: 2,
-  SITEURL: 'https://astro-erudite.vercel.app',
+  SITEURL: 'https://marklreyes.com',
 }
 
 export const NAV_LINKS: Link[] = [
@@ -110,9 +99,9 @@ export const NAV_LINKS: Link[] = [
 ]
 
 export const SOCIAL_LINKS: Link[] = [
-  { href: 'https://github.com/jktrn', label: 'GitHub' },
-  { href: 'https://twitter.com/enscry', label: 'Twitter' },
-  { href: 'jason@enscribe.dev', label: 'Email' },
+  { href: 'https://www.linkedin.com/in/marklreyes', label: 'LinkedIn' },
+  { href: 'https://github.com/marklreyes', label: 'GitHub' },
+  { href: 'mr@marklreyes.com', label: 'Email' },
   { href: '/rss.xml', label: 'RSS' },
 ]
 ```
@@ -185,14 +174,14 @@ Add author information in `src/content/authors/` as Markdown files. A file named
 
 ```yml
 ---
-name: 'enscribe'
+name: 'Mark L. Reyes'
 pronouns: 'he/him'
-avatar: 'https://gravatar.com/avatar/9bfdc4ec972793cf05cb91efce5f4aaaec2a0da1bf4ec34dad0913f1d845faf6.webp?size=256'
-bio: 'd(-_-)b'
-website: 'https://enscribe.dev'
-twitter: 'https://twitter.com/enscry'
-github: 'https://github.com/jktrn'
-mail: 'jason@enscribe.dev'
+avatar: 'https://avatars.githubusercontent.com/u/1628070?v=4'
+bio: 'Multi-hyphenate specializing in web dev and podcasts.'
+website: 'https://marklreyes.com'
+linkedin: 'https://linkedin.com/in/marklreyes'
+github: 'https://github.com/marklreyes'
+mail: 'mr@marklreyes.com'
 ---
 ```
 
