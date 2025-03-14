@@ -226,6 +226,7 @@ The project schema is defined as follows:
 ## License
 
 [![License]](LICENSE)
+
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
