@@ -2,8 +2,6 @@
 
 ## astro-erudite-marklreyes
 [![Netlify Status](https://api.netlify.com/api/v1/badges/49e4824b-49bb-4830-8c3a-c3ed3b17b469/deploy-status)](https://app.netlify.com/sites/marklreyes/deploys)
-![Stargazers]
-[![License]](LICENSE)
 
 </div>
 
@@ -227,6 +225,7 @@ The project schema is defined as follows:
 
 ## License
 
+[![License]](LICENSE)
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
