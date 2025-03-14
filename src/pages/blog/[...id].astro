@@ -1,5 +1,6 @@
 ---
 import Breadcrumbs from '@/components/Breadcrumbs.astro'
+import AvatarComponent from '@/components/ui/avatar'
 import Link from '@/components/Link.astro'
 import PostNavigation from '@/components/PostNavigation.astro'
 import TableOfContents from '@/components/TableOfContents.astro'
@@ -95,12 +96,12 @@ const authors = await parseAuthors(post.data.authors ?? [])
                 <div class="flex items-center gap-x-2">
                   {authors.map((author) => (
                     <div class="flex items-center gap-x-1.5">
-                      <Image
-                        src={author.avatar}
+                      <AvatarComponent
+                    		client:load
+												src={author.avatar}
                         alt={author.name}
-                        width={24}
-                        height={24}
-                        class="rounded-full"
+												fallback={author.name[0]}
+                        className="rounded-full"
                       />
                       {author.isRegistered ? (
                         <Link
