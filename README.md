@@ -12,7 +12,7 @@
 Bootstrapped on top of [astro-erudite](https://github.com/jktrn/astro-erudite), an opinionated, no-frills static blogging template built with [Astro](https://astro.build/), [Tailwind](https://tailwindcss.com/), and [shadcn/ui](https://ui.shadcn.com/). Extraordinarily loosely based off the [Astro Micro](https://astro-micro.vercel.app/) theme by [trevortylerlee](https://github.com/trevortylerlee).
 
 > [!NOTE]
-> To learn more about why this template exists, read [The State of Static Blogs in 2024](https://astro-erudite.vercel.app/blog/the-state-of-static-blogs), where I share my take on what constitutes a great blogging template and my goals while developing this one.
+> To learn more about why this template exists, read [The State of Static Blogs in 2024](https://astro-erudite.vercel.app/blog/the-state-of-static-blogs), where Jason shares his take on what constitutes a great blogging template and his goals while developing this one.
 
 ---
 
