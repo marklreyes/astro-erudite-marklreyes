@@ -15,7 +15,9 @@ My Working Soul is a unique business and career resource, offering targeted, ful
 
 * * *
 
-https://youtu.be/tHa6nP40Os0
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tHa6nP40Os0?si=df8ceK0ekmm2HOjp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+* * *
 
 <iframe src="https://castbox.fm/app/castbox/player/id2933770/id427133398?v=8.22.11&amp;autoplay=0" frameborder="0" width="100%" height="500"></iframe>
 

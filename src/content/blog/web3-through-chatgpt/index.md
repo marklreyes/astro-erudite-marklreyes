@@ -24,7 +24,7 @@ That said, as I learn more about _how_ to be more effective in communicating w
 
 * * *
 
-https://youtu.be/sgITSK1sI\_k
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sgITSK1sI_k?si=w0__34tKWtvaENY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 * * *
 

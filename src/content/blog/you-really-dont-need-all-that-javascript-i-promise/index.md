@@ -5,6 +5,7 @@ date: "2020-09-16"
 tags:
   - "tips-and-tricks"
   - "javascript"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

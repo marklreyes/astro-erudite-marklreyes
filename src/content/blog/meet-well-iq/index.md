@@ -15,7 +15,9 @@ Meet [Peter Harnish](https://www.linkedin.com/in/peterharnish/), San Diego resid
 
 * * *
 
-https://youtu.be/65atmvdXt-E
+<iframe width="560" height="315" src="https://www.youtube.com/embed/65atmvdXt-E?si=h9LVKRMyL8HPqJh6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+* * *
 
 <iframe src="https://castbox.fm/app/castbox/player/id2933770/id431620857?v=8.22.11&amp;autoplay=0" frameborder="0" width="100%" height="500"></iframe>
 
