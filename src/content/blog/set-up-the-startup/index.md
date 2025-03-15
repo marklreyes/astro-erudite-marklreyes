@@ -1,10 +1,11 @@
 ---
 title: "Set Up The Startup"
-description: ""
+description: "I'm joined by Gabe Balanag. And with his help, he spotlights the gotchas new businesses experience as they set forth with their startups."
 date: "2021-05-07"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

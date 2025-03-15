@@ -1,13 +1,15 @@
 ---
 title: "SleepScore Animated Aura"
-description: ""
+description: "A reusable JavaScript animation I developed for web and mobile platforms."
 date: "2020-02-18"
 tags:
   - "data-visualizations"
   - "project-log"
   - "sleep-projects"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/njjVPhQMSVo?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

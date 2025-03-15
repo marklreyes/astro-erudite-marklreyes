@@ -5,7 +5,9 @@ date: "2020-01-07"
 tags:
   - "data-visualizations"
   - "sleep-projects"
+  - "project-log"
   - "vue-projects"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

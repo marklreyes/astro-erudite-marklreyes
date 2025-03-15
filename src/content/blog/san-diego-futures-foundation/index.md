@@ -1,10 +1,11 @@
 ---
 title: "San Diego Futures Foundation"
-description: ""
+description: "Today I'm joined by members of the San Diego Futures Foundation. Follow along as we go head first into the digital divide in San Diego."
 date: "2021-03-23"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

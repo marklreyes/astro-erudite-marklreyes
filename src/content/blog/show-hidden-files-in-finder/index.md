@@ -1,9 +1,11 @@
 ---
 title: "Show hidden files in Finder"
-description: ""
+description: "Show hidden files in OSX by killing Finder."
 date: "2013-03-28"
 tags:
   - "tips-and-tricks"
+  - "osx"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

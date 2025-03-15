@@ -1,9 +1,12 @@
 ---
 title: "SleepScore Product Finder"
-description: ""
+description: "video walkthrough of a VueJS Web App functioning as an embeddable widget so it can be hosted on any domain."
 date: "2019-12-26"
 tags:
   - "vue-projects"
+  - "project-log"
+  - "sleep-projects"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

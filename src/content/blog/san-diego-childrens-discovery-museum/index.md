@@ -1,10 +1,11 @@
 ---
 title: "San Diego Children’s Discovery Museum"
-description: ""
+description: "The CEO of San Diego Children's Discovery Museum stops by to share in their STEAM initiatives tailored for the children of San Diego."
 date: "2022-02-07"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

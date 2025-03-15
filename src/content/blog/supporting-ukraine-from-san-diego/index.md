@@ -1,10 +1,11 @@
 ---
-title: "Supporting Ukraine from San Diego &#x1f1fa;&#x1f1e6;"
-description: ""
+title: "Supporting Ukraine from San Diego 🇺🇦"
+description: "A collection of links curated from my coworkers both past and present in regards to supporting Ukraine in its time of crisis."
 date: "2022-03-09"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

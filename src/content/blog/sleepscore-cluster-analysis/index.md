@@ -6,6 +6,8 @@ tags:
   - "data-visualizations"
   - "python-projects"
   - "sleep-projects"
+  - "project-log"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

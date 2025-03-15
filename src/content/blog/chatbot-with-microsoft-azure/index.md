@@ -5,6 +5,8 @@ date: "2018-08-11"
 tags:
   - "chat-bot-projects"
   - "sleep-projects"
+  - "project-log"
+  - "azure"
 image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
