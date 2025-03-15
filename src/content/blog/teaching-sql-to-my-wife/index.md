@@ -1,10 +1,11 @@
 ---
 title: "Teaching SQL to My Wife"
-description: ""
+description: "A heart to heart talk with my wife on the night before Thanksgiving. Here we discuss the hardships and approach about learning something new."
 date: "2020-11-26"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

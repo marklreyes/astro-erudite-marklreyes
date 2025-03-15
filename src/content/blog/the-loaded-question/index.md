@@ -1,10 +1,11 @@
 ---
 title: "The Loaded Question"
-description: ""
+description: "You've been bookmarked as a professional reference and when called, the recruiter asks...the loaded question."
 date: "2021-01-19"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

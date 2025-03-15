@@ -1,9 +1,11 @@
 ---
 title: "Use SquidMan.app to connect localhost to mobile devices"
-description: ""
+description: "Step-by-step guide using SquidMan to connect localhost to mobile devices."
 date: "2014-02-20"
 tags:
   - "tips-and-tricks"
+  - "mobile"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

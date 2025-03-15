@@ -5,7 +5,7 @@ date: "2014-04-09"
 tags:
   - "tips-and-tricks"
   - "javascript"
-  - "devtools"
+  - "dev-tools"
 image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---

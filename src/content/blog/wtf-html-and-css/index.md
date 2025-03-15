@@ -1,9 +1,12 @@
 ---
 title: "WTF HTML and CSS"
-description: ""
+description: "A curated list of commonly frustrating HTML and CSS quandaries, miscues, and dilemmas."
 date: "2014-04-07"
 tags:
   - "tips-and-tricks"
+  - "html"
+  - "css"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

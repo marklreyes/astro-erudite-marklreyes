@@ -1,10 +1,11 @@
 ---
 title: "TeraByte Titan"
-description: ""
+description: "Extending The Digital Bridge Initiative further with the San Diego Futures Foundation where we cover what is a TeraByte Titan."
 date: "2024-06-18"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

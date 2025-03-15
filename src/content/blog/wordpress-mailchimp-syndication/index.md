@@ -1,9 +1,12 @@
 ---
 title: "WordPress, Mailchimp Syndication"
-description: ""
+description: "Overview of bringing value back to your domain by syndicating your newsletter content through RSS feeds."
 date: "2020-01-17"
 tags:
   - "tips-and-tricks"
+  - "wordpress"
+  - "mailchimp"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

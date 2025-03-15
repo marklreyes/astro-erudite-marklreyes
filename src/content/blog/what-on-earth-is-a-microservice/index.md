@@ -1,10 +1,11 @@
 ---
 title: "What on Earth is a MicroService?"
-description: ""
+description: "I’m joined by Justin. And with his help, he walks me through a high-level explanation of what a MicroService is!"
 date: "2021-02-19"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

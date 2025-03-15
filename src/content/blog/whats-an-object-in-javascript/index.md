@@ -1,9 +1,11 @@
 ---
 title: "What's an Object in JavaScript?"
-description: ""
+description: "Almost everything is an object, functions are first class values and how primitives don't look like objects."
 date: "2014-05-24"
 tags:
   - "tips-and-tricks"
+  - "javascript"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

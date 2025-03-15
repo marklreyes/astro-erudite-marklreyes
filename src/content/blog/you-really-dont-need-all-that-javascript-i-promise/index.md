@@ -1,9 +1,10 @@
 ---
 title: "You Really Don't Need All That JavaScript, I Promise"
-description: ""
+description: "20ish minute presentation regarding JavaScript with strong arguments on why you don't need to employ that tool first."
 date: "2020-09-16"
 tags:
   - "tips-and-tricks"
+  - "javascript"
 authors: ["marklreyes"]
 ---
 

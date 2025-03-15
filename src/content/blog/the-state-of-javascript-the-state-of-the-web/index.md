@@ -1,9 +1,11 @@
 ---
 title: "The State of JavaScript - The State of the Web"
-description: ""
+description: "Rick speaks with Addy Osmani about the state of JavaScript."
 date: "2018-10-28"
 tags:
   - "tips-and-tricks"
+  - "javascript"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

@@ -6,7 +6,7 @@ tags:
   - "vue-projects"
   - "project-log"
   - "sleep-projects"
-image: '../../../../public/static/1200x630_default.jpg'
+image: '../../../../public/static/1200x630_vue.jpg'
 authors: ["marklreyes"]
 ---
 

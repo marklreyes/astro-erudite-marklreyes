@@ -1,10 +1,11 @@
 ---
 title: "Upgrading a Legacy Angular Web App"
-description: ""
+description: "Outlining my intended path from Angular 4 to 6, explaining as many gotchas along the way and how I concluded into Angular 5."
 date: "2020-05-13"
 tags:
   - "angular-projects"
   - "project-log"
+image: '../../../../public/static/1200x630_angular.jpg'
 authors: ["marklreyes"]
 ---
 

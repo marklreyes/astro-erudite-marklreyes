@@ -1,9 +1,10 @@
 ---
 title: "The Friendship Algorithm in JavaScript"
-description: ""
+description: "I couldn't resist playing around with Sheldon's friendship algorithm."
 date: "2014-06-30"
 tags:
   - "personal-log"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

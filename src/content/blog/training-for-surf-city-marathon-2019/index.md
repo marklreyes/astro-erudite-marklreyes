@@ -1,9 +1,10 @@
 ---
 title: "Training for Surf City Marathon 2019"
-description: ""
+description: "Have you ever run a marathon? In the words of Michael Scott, I should've just said NO!"
 date: "2018-12-29"
 tags:
   - "personal-log"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 
@@ -27,7 +28,7 @@ Several days later the initial trauma was gone. But everything was set in stone.
 
 Why so specific? Well, I already rode this struggle bus back in 2008 and the final outcome was a total net time of **04:21:43**.
 
-\[caption id="attachment\_508" align="alignnone" width="255"\]![](images/Live-1-3.jpg) It Will Be Fun, They Said.\[/caption\]
+![](images/Live-1-3.jpg) It Will Be Fun, They Said.\
 
 I had real data. SWEET. Now was the time to use it.
 
@@ -59,7 +60,7 @@ Okay, more fessing up. I tried doing all of this by just eyeballing but honestly
 
 But Sweet Baby Jesus time flies by fast. At the time of this writing, I'm less than 5 weeks away from the starting line and this is how it looks at scale:
 
-\[caption id="attachment\_529" align="aligncenter" width="625"\]![](images/Screen-Shot-2018-12-29-1024x418.png) https://www.strava.com/athletes/markreyes\[/caption\]
+![](images/Screen-Shot-2018-12-29-1024x418.png)
 
 I'll plop a follow-up to this post once the race is done.
 

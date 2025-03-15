@@ -1,9 +1,11 @@
 ---
 title: "Visual Studio Code x console.log()"
-description: ""
+description: "Christian Heilmann demonstrates console.log and Visual Studio Code working together in harmony, so you never have to do a context switch."
 date: "2021-08-02"
 tags:
   - "tips-and-tricks"
+  - "vs-code"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 
