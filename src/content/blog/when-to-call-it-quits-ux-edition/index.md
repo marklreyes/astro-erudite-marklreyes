@@ -1,10 +1,11 @@
 ---
 title: "When To Call It Quits (UX Edition)"
-description: ""
+description: 'Season 3 of AllWebSD.com podcast starts off with "When To Call It Quits" - an open ended discussion with Greg, a former UX Designer.'
 date: "2020-10-07"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

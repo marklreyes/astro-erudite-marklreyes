@@ -4,7 +4,7 @@ description: "In order to be efficient and capable at our jobs, we must also exc
 date: "2017-04-15"
 tags:
   - "tips-and-tricks"
-  - "devtools"
+  - "dev-tools"
 image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---

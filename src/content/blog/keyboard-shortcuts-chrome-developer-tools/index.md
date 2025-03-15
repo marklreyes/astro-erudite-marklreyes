@@ -4,7 +4,7 @@ description: "Search or navigate to files, methods or line numbers. Shortcuts fo
 date: "2013-03-15"
 tags:
   - "tips-and-tricks"
-  - "devtools"
+  - "dev-tools"
 image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---

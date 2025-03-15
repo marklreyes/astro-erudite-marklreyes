@@ -1,9 +1,10 @@
 ---
 title: "Upgrade from Angular 2 to Angular 4"
-description: ""
+description: "Gain an instant 60% reduction in bundled library code."
 date: "2018-12-09"
 tags:
   - "angular-projects"
+image: '../../../../public/static/1200x630_angular.jpg'
 authors: ["marklreyes"]
 ---
 

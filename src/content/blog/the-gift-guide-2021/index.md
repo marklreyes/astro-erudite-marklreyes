@@ -1,11 +1,12 @@
 ---
 title: "The Gift Guide 2021"
-description: ""
+description: "Here are some free resources I've found to be helpful in my own personal and professional web development journey."
 date: "2021-11-24"
 tags:
   - "personal-log"
   - "podcast-projects"
   - "tips-and-tricks"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

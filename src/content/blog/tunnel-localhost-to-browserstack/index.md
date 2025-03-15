@@ -1,9 +1,10 @@
 ---
 title: "Tunnel Localhost to Browserstack"
-description: ""
+description: "Test out your localhost on Browserstack through a web tunnel."
 date: "2013-08-16"
 tags:
   - "tips-and-tricks"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

@@ -1,11 +1,12 @@
 ---
 title: "Vue Components: Bootstrap Card, Github API"
-description: ""
+description: "A quick demonstration leveraging Vue alongside Bootstrap, Axios and Github API to display a user's profile."
 date: "2021-01-09"
 tags:
   - "5-steps-series"
   - "project-log"
   - "vue-projects"
+image: '../../../../public/static/1200x630_vue.jpg'
 authors: ["marklreyes"]
 ---
 

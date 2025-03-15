@@ -1,12 +1,13 @@
 ---
 title: "Vue Components in 5 Steps or Less"
-description: ""
+description: "Seasosn 4, Episode 2 of The AllWebSD Podcast takes me down a rabbit hole dabbling with JavaScript Framework, VueJS."
 date: "2021-01-10"
 tags:
   - "5-steps-series"
   - "personal-log"
   - "podcast-projects"
   - "vue-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

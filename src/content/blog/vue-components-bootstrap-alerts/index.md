@@ -1,11 +1,12 @@
 ---
 title: "Vue Components: Bootstrap Alerts"
-description: ""
+description: "A quick demonstration leveraging Vue alongside Bootstrap to create a series of notifications using alert components."
 date: "2021-01-08"
 tags:
   - "5-steps-series"
   - "project-log"
   - "vue-projects"
+image: '../../../../public/static/1200x630_vue.jpg'
 authors: ["marklreyes"]
 ---
 

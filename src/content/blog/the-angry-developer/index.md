@@ -1,12 +1,14 @@
 ---
 title: "The Angry Developer"
-description: ""
+description: "Tips and tricks for web developers, software developers and like-minded people who feel a touch of anger when going about their daily job."
 date: "2020-10-21"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
+
 
 ## Introduction
 

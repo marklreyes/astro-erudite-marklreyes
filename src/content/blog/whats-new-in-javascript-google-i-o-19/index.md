@@ -1,9 +1,11 @@
 ---
 title: "What’s new in JavaScript (Google I/O ’19)"
-description: ""
+description: "Overview of cutting-edge JavaScript development techniques to build modern web and Node.js apps."
 date: "2020-01-03"
 tags:
   - "tips-and-tricks"
+  - "javascript"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

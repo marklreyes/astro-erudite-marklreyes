@@ -1,10 +1,11 @@
 ---
 title: "Tap Cancer Out 2020 Results"
-description: ""
+description: "I started out strong but was unable to maintain a dominant series and ended the match through points."
 date: "2020-02-05"
 tags:
   - "charitable-objectives"
   - "personal-log"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

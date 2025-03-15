@@ -4,7 +4,7 @@ description: "This is a talk given by Christian at CityJS in September 2021. He 
 date: "2021-11-13"
 tags:
   - "tips-and-tricks"
-  - "devtools"
+  - "dev-tools"
 image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---

@@ -1,10 +1,11 @@
 ---
 title: "Tap Cancer Out 2022"
-description: ""
+description: "I will be competing in a special tournament called Tap Cancer Out 2022, which will be held February 12th in San Marcos, California."
 date: "2022-02-01"
 tags:
   - "charitable-objectives"
   - "personal-log"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

@@ -1,9 +1,11 @@
 ---
 title: "Twelve Fancy Chrome DevTools Tips"
-description: ""
+description: "Quick and fancy tips using Google Chrome DevTools."
 date: "2016-12-27"
 tags:
   - "tips-and-tricks"
+  - "dev-tools"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

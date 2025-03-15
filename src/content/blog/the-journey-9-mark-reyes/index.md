@@ -1,10 +1,10 @@
 ---
 title: "The Journey #9: Mark Reyes"
-description: ""
+description: "A one hour conversation with podcast host Ty Matson outlining my web development journey from the beginning to where it is today."
 date: "2021-08-21"
 tags:
   - "personal-log"
-  - "podcast-projects"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

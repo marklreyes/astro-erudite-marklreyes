@@ -1,9 +1,12 @@
 ---
 title: "Web Performance Tooling - Google I/O 2016"
-description: ""
+description: "Paul Irish and Sam Saccone show new tips, tricks and features in DevTools."
 date: "2016-06-01"
 tags:
   - "tips-and-tricks"
+  - "web-performance"
+  - "dev-tools"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

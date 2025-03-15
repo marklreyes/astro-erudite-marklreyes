@@ -1,9 +1,10 @@
 ---
 title: "The Basics of Package.json"
-description: ""
+description: "Identifying meta data inside of a package file."
 date: "2017-03-13"
 tags:
   - "tips-and-tricks"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 
