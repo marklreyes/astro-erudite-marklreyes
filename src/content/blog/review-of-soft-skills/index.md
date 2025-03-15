@@ -1,11 +1,12 @@
 ---
 title: "Review of Soft Skills"
-description: ""
+description: "A book review of Soft Skills: a software developer's life manual, with portions highlighted that I found to be most important."
 date: "2020-11-05"
 tags:
   - "book-reviews"
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

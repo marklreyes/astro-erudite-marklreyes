@@ -1,10 +1,11 @@
 ---
 title: "React Components: Bootstrap Card, Github API"
-description: ""
+description: "A quick demonstration leveraging React alongside Bootstrap, hooks and Github API to display a user's profile."
 date: "2024-05-20"
 tags:
   - "project-log"
   - "react-projects"
+image: '../../../../public/static/1200x630_react.jpg'
 authors: ["marklreyes"]
 ---
 

@@ -1,10 +1,11 @@
 ---
 title: "Analytics...Who Cares?"
-description: ""
+description: "I’m joined by Ansel. And with his help, he coaches me on the importance of data, with a stronger emphasis on its value for the business."
 date: "2021-03-15"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

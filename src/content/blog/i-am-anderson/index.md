@@ -1,9 +1,11 @@
 ---
 title: "I am...Anderson"
-description: ""
+description: "Another day in the life of Anderson, an engineer trying to fit into the corporate world."
 date: "2014-05-07"
 tags:
   - "personal-log"
+  - "satire"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

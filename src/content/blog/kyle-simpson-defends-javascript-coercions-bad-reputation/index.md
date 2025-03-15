@@ -1,9 +1,11 @@
 ---
 title: "Kyle Simpson defends JavaScript Coercion's bad reputation"
-description: ""
+description: "From Fluent 2015: Kyle Simpson who’s passionate about all things JavaScript."
 date: "2015-05-08"
 tags:
   - "tips-and-tricks"
+  - "javascript"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

@@ -1,10 +1,11 @@
 ---
 title: "Chuck Norris and Jenkins (ASMR Edition)"
-description: ""
+description: "When you find Chuck Norris easter eggs on the Jenkins server, you share them with the world through ASMR. Headphones on and enjoy!"
 date: "2021-01-30"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

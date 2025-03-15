@@ -1,10 +1,11 @@
 ---
 title: "Introducing The Digital Bridge"
-description: ""
+description: "Today, I'm reconnected with San Diego Futures Foundation introducing their newest initiative called The Digital Bridge."
 date: "2024-06-18"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

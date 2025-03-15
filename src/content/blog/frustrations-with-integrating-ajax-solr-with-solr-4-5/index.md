@@ -1,9 +1,10 @@
 ---
 title: "Frustrations integrating AJAX Solr with Solr 4.5"
-description: ""
+description: "Setting up search and have stumbled onto roadblock after roadblock."
 date: "2013-10-30"
 tags:
   - "search-projects"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

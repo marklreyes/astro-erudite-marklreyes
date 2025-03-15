@@ -1,9 +1,12 @@
 ---
 title: "Local WordPress Development"
-description: ""
+description: "Chris Coyier gives an overview of his current day local development processes."
 date: "2020-01-21"
 tags:
   - "tips-and-tricks"
+  - "wordpress"
+  - "php"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

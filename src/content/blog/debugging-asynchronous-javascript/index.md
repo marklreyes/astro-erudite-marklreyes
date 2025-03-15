@@ -1,9 +1,12 @@
 ---
 title: "Debugging Asynchronous JavaScript"
-description: ""
+description: "All the asynchronous callbacks where DevTools displays the full call stack."
 date: "2014-04-09"
 tags:
   - "tips-and-tricks"
+  - "javascript"
+  - "devtools"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

@@ -1,10 +1,11 @@
 ---
 title: "Dear Gen Z"
-description: ""
+description: "An open invite to the members of Generation Z who have said goodbye to all forms of modern day social media."
 date: "2021-10-26"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

@@ -1,9 +1,11 @@
 ---
 title: "CSS Grid & the Firefox Grid Inspector Tool"
-description: ""
+description: "Jen Simmons gives a brief look at some of the things CSS Grid can do."
 date: "2017-03-22"
 tags:
   - "tips-and-tricks"
+  - "web-design"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

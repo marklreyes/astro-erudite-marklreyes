@@ -1,10 +1,11 @@
 ---
 title: "All The Things"
-description: ""
+description: "My inbox is flooded. I haven’t caught up. I’ve short circuited my anxiety by marking all as read, even though that’s definitely not the case."
 date: "2022-03-31"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

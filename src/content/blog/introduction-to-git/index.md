@@ -1,9 +1,11 @@
 ---
 title: "Introduction to Git"
-description: ""
+description: "This talk introduces the Git Version Control System by looking at what Git is doing when you run the commands you need to do basic version control with it."
 date: "2018-10-30"
 tags:
   - "tips-and-tricks"
+  - "git"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

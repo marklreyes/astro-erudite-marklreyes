@@ -1,9 +1,11 @@
 ---
 title: "Pushing the Limits Of the Web with Angular"
-description: ""
+description: "Learn about the ways Angular is making applications that better leverage the network, take advantage of new APIs, adopts and promotes standards."
 date: "2018-07-25"
 tags:
   - "tips-and-tricks"
+  - "angular-projects"
+image: '../../../../public/static/1200x630_angular.jpg'
 authors: ["marklreyes"]
 ---
 

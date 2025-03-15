@@ -1,9 +1,11 @@
 ---
 title: "Back to Basics: Scoping And Hoisting"
-description: ""
+description: "So, fellow JavaScript developers, my name is Fox Reymann, and tonight I'm going to present a talk, Ace JavaScript Interviews, Scoping and Hoisting."
 date: "2017-03-14"
 tags:
   - "tips-and-tricks"
+  - "javascript"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

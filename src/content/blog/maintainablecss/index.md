@@ -1,9 +1,11 @@
 ---
 title: "MaintainableCSS"
-description: ""
+description: "MaintainableCSS is an approach to writing modular, scalable and maintainable CSS."
 date: "2017-03-05"
 tags:
   - "tips-and-tricks"
+  - "css"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

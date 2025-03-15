@@ -1,9 +1,11 @@
 ---
 title: "Rename a local and remote branch"
-description: ""
+description: "Change the name of your current branch and ship it back to the remote repo."
 date: "2017-03-17"
 tags:
   - "tips-and-tricks"
+  - "git"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

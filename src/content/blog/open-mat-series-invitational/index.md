@@ -1,10 +1,11 @@
 ---
 title: "Open Mat Series Invitational"
-description: ""
+description: "Recent graduates, career pivots and the like, this round of dialogue is dedicated to you. An invite to discuss why you chose a web career."
 date: "2020-12-11"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

@@ -1,9 +1,11 @@
 ---
 title: "Minify, a PHP5 app for client-side performance"
-description: ""
+description: "If you need a minifier for CSS and JS assets, feel free to explore Minify."
 date: "2014-03-25"
 tags:
   - "tips-and-tricks"
+  - "php"
+image: '../../../../public/static/1200x630_php.jpg'
 authors: ["marklreyes"]
 ---
 

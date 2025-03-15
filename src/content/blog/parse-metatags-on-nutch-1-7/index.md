@@ -1,9 +1,10 @@
 ---
 title: "Crawl Metatags with Nutch 1.7"
-description: ""
+description: "Reviewing the key/value structure of JSON, I came across a discussion on Parsing JSON with hyphenated key names."
 date: "2013-11-20"
 tags:
   - "search-projects"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 
@@ -12,14 +13,13 @@ In regards to the [Stackoverflow](http://stackoverflow.com/questions/15504828/ex
 Reviewing the key/value structure of JSON, I came across this discussion on [Parsing JSON with hyphenated key names](https://developer.appcelerator.com/question/120227/parsing-json-with-hyphenated-key-names), I thought the same would hold true for mine. That said, I've augmented the [Stackoverflow](http://stackoverflow.com/questions/15504828/extracting-html-meta-tags-in-nutch-2-x-and-having-solr-4-index-it) suggestion slightly to leverage underscores versus dot syntax and came up with the following:
 
 ```
+	/* For schema.xml on Nutch and Solr */
+	<field name="metatag_description" type="text_general" stored="true" indexed="true"/>
+	<field name="metatag_keywords" type="text_general" stored="true" indexed="true"/>
 
-/* For schema.xml on Nutch and Solr */
-<field name="metatag_description" type="text_general" stored="true" indexed="true"/>
-<field name="metatag_keywords" type="text_general" stored="true" indexed="true"/>
-
-/* For solrindex-mapping.xml on Nutch */
-<field dest="metatag_description" source="metatag.serptitle"/>
-<field dest="metatag_keywords" source="metatag.serpdescription"/>
+	/* For solrindex-mapping.xml on Nutch */
+	<field dest="metatag_description" source="metatag.serptitle"/>
+	<field dest="metatag_keywords" source="metatag.serpdescription"/>
 ```
 
 This was implemented on Nutch 1.7 on a Solr 4.5.0 instance.

@@ -1,9 +1,10 @@
 ---
 title: "Mahalo and Aloha 2020"
-description: ""
+description: "My personal retrospective, brain vomit and more penned in an effort to find calm versus absolutes in a year we called 2020."
 date: "2021-01-01"
 tags:
   - "personal-log"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

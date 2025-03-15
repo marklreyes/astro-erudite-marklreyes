@@ -1,9 +1,11 @@
 ---
 title: "Leverage browser cache with .htaccess"
-description: ""
+description: "Modify your root directory's .htaccess file to leverage browser cache."
 date: "2013-10-24"
 tags:
   - "tips-and-tricks"
+  - "web-performance"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

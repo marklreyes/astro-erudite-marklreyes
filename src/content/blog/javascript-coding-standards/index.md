@@ -1,9 +1,11 @@
 ---
 title: "JavaScript Coding Standards"
-description: ""
+description: "A set of coding conventions and rules for use in JavaScript programming."
 date: "2013-04-06"
 tags:
   - "tips-and-tricks"
+  - "javascript"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

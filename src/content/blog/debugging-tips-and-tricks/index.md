@@ -1,9 +1,11 @@
 ---
 title: "Debugging Tips and Tricks"
-description: ""
+description: "In order to be efficient and capable at our jobs, we must also excel at debugging."
 date: "2017-04-15"
 tags:
   - "tips-and-tricks"
+  - "devtools"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

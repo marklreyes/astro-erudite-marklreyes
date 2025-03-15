@@ -1,10 +1,11 @@
 ---
 title: "Removing Gender from HTML Forms"
-description: ""
+description: "Going head first with Tiffany on addressing binary and non-binary identification and its impact on creating an empathetic digital experience."
 date: "2021-11-12"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

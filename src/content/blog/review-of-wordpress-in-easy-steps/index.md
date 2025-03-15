@@ -1,11 +1,13 @@
 ---
 title: "Review of WordPress In Easy Steps"
-description: ""
+description: "A book review of WordPress In Easy Steps, with portions highlighted which I found to be most important in surviving this modern day CMS tool."
 date: "2020-07-05"
 tags:
   - "book-reviews"
   - "personal-log"
   - "podcast-projects"
+  - "wordpress"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

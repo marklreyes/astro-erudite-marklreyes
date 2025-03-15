@@ -1,9 +1,11 @@
 ---
 title: "Mobile Optimization Project: LifeTechnologies.com"
-description: ""
+description: "Partnered with Moovweb, to develop mobile optimized workflows from high-traffic areas like Homepage, Cart/Checkout and PDP."
 date: "2015-01-31"
 tags:
   - "responsive-mobile-projects"
+  - "mobile"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

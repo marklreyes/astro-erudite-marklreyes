@@ -1,9 +1,11 @@
 ---
 title: "How to edit hosts file in OSX"
-description: ""
+description: "Use the terminal to edit hosts file and flush DNS cache."
 date: "2013-03-19"
 tags:
   - "tips-and-tricks"
+  - "osx"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

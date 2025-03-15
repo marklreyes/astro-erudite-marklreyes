@@ -1,9 +1,12 @@
 ---
 title: "Responsive Web Design for Thermofisher.com"
-description: ""
+description: "Generate mobile, tablet and desktop experiences from one codebase."
 date: "2017-04-23"
 tags:
   - "responsive-mobile-projects"
+  - "responsive-web-design"
+  - "mobile"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

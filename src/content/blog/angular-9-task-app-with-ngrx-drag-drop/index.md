@@ -1,9 +1,10 @@
 ---
 title: "Angular 9 Task App with NgRx & Drag Drop"
-description: ""
+description: "A todo list, specifically with drag and drop and state management. This was built with Angular 9, Angular Material and NgRx."
 date: "2020-06-25"
 tags:
   - "angular-projects"
+image: '../../../../public/static/1200x630_angular.jpg'
 authors: ["marklreyes"]
 ---
 

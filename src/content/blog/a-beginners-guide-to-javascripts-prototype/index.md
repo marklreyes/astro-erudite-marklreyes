@@ -1,9 +1,11 @@
 ---
 title: "A Beginner's Guide to JavaScript's Prototype"
-description: ""
+description: "Learn a variety of patterns for instantiating new objects in JavaScript and in doing so will gain a deep understanding of JavaScript's prototype."
 date: "2018-10-14"
 tags:
   - "tips-and-tricks"
+  - "javascript"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

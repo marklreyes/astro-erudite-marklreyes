@@ -1,10 +1,11 @@
 ---
 title: "Losing The Bid"
-description: ""
+description: "A quick gut check, pep talk and checklist for people heading back into the world of freelance web development."
 date: "2020-11-02"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

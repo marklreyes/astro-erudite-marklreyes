@@ -1,9 +1,11 @@
 ---
 title: "Apple OS X command line"
-description: ""
+description: "8 terminal utilities every OS X CLI users should know."
 date: "2014-05-18"
 tags:
   - "tips-and-tricks"
+  - "osx"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

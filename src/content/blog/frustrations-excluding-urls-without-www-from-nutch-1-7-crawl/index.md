@@ -1,9 +1,10 @@
 ---
 title: "Frustrations excluding urls from Nutch 1.7 crawl"
-description: ""
+description: "My issue is specific to URLs being indexed as www vs. non-www."
 date: "2013-11-01"
 tags:
   - "search-projects"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 
@@ -12,7 +13,6 @@ I'm currently using Nutch 1.7 to crawl my domain. My issue is specific to URLs b
 Specifically, after firing the crawl and index to Solr 4.5 then validating the results on the front-end with AJAX Solr, the search results page lists results/pages that are both 'www' and '' urls such as:
 
 ```
-
 www.mywebsite.com
 mywebsite.com
 www.mywebsite.com/page1.html
@@ -22,7 +22,6 @@ mywebsite.com/page1.html
 My understanding is that the url filtering aka regex-urlfilter.txt needs modification. Are there any regex/nutch experts that could suggest a solution?
 
 ```
-
 # Licensed to the Apache Software Foundation (ASF) under one or more
 # contributor license agreements.  See the NOTICE file distributed with
 # this work for additional information regarding copyright ownership.

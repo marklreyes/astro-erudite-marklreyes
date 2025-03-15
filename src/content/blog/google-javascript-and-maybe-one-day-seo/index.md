@@ -1,9 +1,11 @@
 ---
 title: "Google, JavaScript and maybe one day SEO?"
-description: ""
+description: "Interpreting and crawling web pages that make heavy use of JavaScript."
 date: "2014-06-04"
 tags:
   - "tips-and-tricks"
+  - "javascript"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

@@ -1,10 +1,11 @@
 ---
 title: "Meet Family Proud"
-description: ""
+description: "Family Proud, a San Diego healthcare organization aimed at connecting patients and families to critical resources in their time of need."
 date: "2020-07-21"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

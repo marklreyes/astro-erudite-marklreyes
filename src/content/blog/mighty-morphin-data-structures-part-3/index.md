@@ -1,11 +1,12 @@
 ---
 title: "Mighty Morphin Data Structures, Part 3"
-description: ""
+description: "AllWebSD.com Season 6 demo, part 3, on data structures with a mighty morphin twist. Here we go head first with queues."
 date: "2021-07-13"
 tags:
   - "data-structures"
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

@@ -1,10 +1,11 @@
 ---
 title: "Red Pill, Blue Pill (Web3 Edition)"
-description: ""
+description: "Today marks a temporary pause of the AllWebSD.com Podcast as I go head first into figuring out what on Earth Web3 is all about."
 date: "2022-04-04"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

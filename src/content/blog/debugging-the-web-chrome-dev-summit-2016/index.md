@@ -1,9 +1,11 @@
 ---
 title: "Debugging The Web (Chrome Dev Summit 2016)"
-description: ""
+description: "Learn the state of the art in debugging using Chrome dev tools."
 date: "2016-11-24"
 tags:
   - "tips-and-tricks"
+  - "devtools"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

@@ -1,11 +1,12 @@
 ---
 title: "Puff Finder"
-description: ""
+description: "Utilizing previous techniques on creating a VueJS embeddable web app, I decided to propose the same for the Cannabis industry."
 date: "2020-04-08"
 tags:
   - "cannabis-projects"
   - "project-log"
   - "vue-projects"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

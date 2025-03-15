@@ -1,10 +1,11 @@
 ---
 title: "Not Everyone Has an iPhone"
-description: ""
+description: "I use an iPhone and I have that bias groomed into me from the start."
 date: "2020-06-25"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

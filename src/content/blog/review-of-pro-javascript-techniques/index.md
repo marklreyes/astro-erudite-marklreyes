@@ -1,10 +1,11 @@
 ---
 title: "Review of Pro JavaScript Techniques"
-description: ""
+description: "A book review of Pro JavaScript Techniques written by jQuery creator, John Resig. What could be relevant from a tech book from 2006?"
 date: "2020-11-28"
 tags:
   - "book-reviews"
   - "personal-log"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

@@ -1,9 +1,10 @@
 ---
 title: "iPhone case creates a trackpad"
-description: ""
+description: "Aiming to expand the iPhone's possibilities, Fuffr is a case which can use any surface the phone is lying on as a controller."
 date: "2014-06-20"
 tags:
   - "tips-and-tricks"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

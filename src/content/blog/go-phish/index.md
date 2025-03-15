@@ -1,10 +1,12 @@
 ---
 title: "Go Phish"
-description: ""
+description: "Get a 2020 update on digital security from Security Engineer and Developer, Edel John Marcelino from Beacon Cloud Solutions."
 date: "2020-08-15"
 tags:
   - "personal-log"
   - "podcast-projects"
+  - "cyber-security"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 
@@ -21,7 +23,7 @@ This is Edel John Marcelino of [Beacon Cloud Solutions](https://www.beaconclouds
 - Comparing data security from the past (2008) to now (2020).
 - Remember Target and Home Depot Credit Card breaches.
 - Summary of current payment processors: NFC payments, Google Payments, Apple Payments, Samsung Payments, etc.
-- [Quarantine’s Top 10 Phishing Targets](http://* https://www.beaconcloudsolutions.com/blog/2020/8/7/quarantines-top-10-phishing-targets)
+- [Quarantine’s Top 10 Phishing Targets](https://www.beaconcloudsolutions.com/blog/2020/8/7/quarantines-top-10-phishing-targets)
 - Password Management.
 - Identity Theft Insurance - is it worth it?
 - Back up your data.

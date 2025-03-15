@@ -1,11 +1,12 @@
 ---
 title: "Mighty Morphin Data Structures, Part 2"
-description: ""
+description: "AllWebSD.com Season 6 demo, part 2, on data structures with a mighty morphin twist. Here we go head first into extending our array."
 date: "2021-07-08"
 tags:
   - "data-structures"
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

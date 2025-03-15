@@ -1,9 +1,11 @@
 ---
 title: "Dos and Don'ts in JavaScript"
-description: ""
+description: "With every programming language, there's a list of best practices; do's and don'ts. JavaScript is no exception."
 date: "2014-05-07"
 tags:
   - "tips-and-tricks"
+  - "javascript"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

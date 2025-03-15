@@ -1,11 +1,12 @@
 ---
 title: "Review of Digital Minimalism"
-description: ""
+description: "A book review of Digital Minimalism written by Cal Newport and the suggestions I used in his book to help alleviate my digital anxiety."
 date: "2020-06-26"
 tags:
   - "book-reviews"
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

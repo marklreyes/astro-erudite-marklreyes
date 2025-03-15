@@ -1,9 +1,10 @@
 ---
 title: "Apache Solr + University of Rockies"
-description: ""
+description: "Open source search project implemented on for-profit education company, UoR."
 date: "2014-01-10"
 tags:
   - "search-projects"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 
