@@ -1,9 +1,11 @@
 ---
 title: "PageSpeed: here.ashford.edu"
-description: ""
+description: "Page speed seems to be one of the bigger priorities as of late and I was designated with the RnD task in making one of our subdomains...faster."
 date: "2014-04-07"
 tags:
   - "page-speed-projects"
+  - "web-performance"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

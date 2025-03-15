@@ -1,10 +1,12 @@
 ---
 title: "Beat Cancer 2020"
-description: ""
+description: "Be The Match and Tap Cancer Out are a couple of causes you'll see me fighting for on a daily basis. Please register or donate today!"
 date: "2020-01-09"
 tags:
   - "charitable-objectives"
   - "personal-log"
+  - "advocacy"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

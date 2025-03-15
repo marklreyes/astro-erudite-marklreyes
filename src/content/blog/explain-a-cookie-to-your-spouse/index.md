@@ -1,10 +1,11 @@
 ---
 title: "Explain a Cookie To Your Spouse"
-description: ""
+description: "I'm joined by fellow web developer, Daniel Gurtner, and in this session we go through a situation explaining what a cookie is to his spouse."
 date: "2021-04-16"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

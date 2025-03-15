@@ -1,9 +1,12 @@
 ---
 title: "Debugging in 2017 with Node.js"
-description: ""
+description: "Paul demonstrates improved workflows for debugging, profiling and understanding your app using the DevTools Protocol."
 date: "2017-09-27"
 tags:
   - "tips-and-tricks"
+  - "javascript"
+  - "nodejs"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

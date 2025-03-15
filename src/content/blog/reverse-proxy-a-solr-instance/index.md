@@ -1,9 +1,10 @@
 ---
 title: "Reverse Proxy a Solr Instance"
-description: ""
+description: "Secure your Solr instance by placing the application on a different file server and behind a firewall."
 date: "2014-05-12"
 tags:
   - "search-projects"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 
@@ -24,9 +25,8 @@ It's encouraged that you secure your Solr instance by placing the application on
 - This allows for an endpoint that is visible to the browser and we can consume the JSON/XML that rests within the Solr instance.
 
 ```
-
-ProxyPass /solr http://12.34.56.789:8983/solr/#/
-ProxyPassReverse /solr http://12.34.56.789:8983/solr/#/
+	ProxyPass /solr http://12.34.56.789:8983/solr/#/
+	ProxyPassReverse /solr http://12.34.56.789:8983/solr/#/
 ```
 
 Don't forget to [apply a RewriteRule Directive](/apply-a-rewrite-directive-to-a-solr-instance/) to protect the Solr admin panel, once you've exposed it to the browser!

@@ -1,9 +1,11 @@
 ---
 title: "Chris Coyier: A Modern Web Designer's Workflow"
-description: ""
+description: "Web Designer workflow presentation by Chris Coyier of CSS Tricks."
 date: "2014-03-20"
 tags:
   - "tips-and-tricks"
+  - "web-design"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

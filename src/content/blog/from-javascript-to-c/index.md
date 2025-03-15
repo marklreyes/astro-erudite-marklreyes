@@ -1,9 +1,11 @@
 ---
 title: "From JavaScript to C#"
-description: ""
+description: "A quick retrospective doing C# from the perspective of a JavaScript Developer."
 date: "2020-06-04"
 tags:
   - "personal-log"
+  - "c-sharp"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

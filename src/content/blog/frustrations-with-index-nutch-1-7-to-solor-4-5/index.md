@@ -1,9 +1,10 @@
 ---
 title: "Frustrations with indexing Nutch 1.7 to Solr 4.5"
-description: ""
+description: "I'm currently using Nutch 1.7 to crawl my domain. My issue is specific to URLs being indexed as www vs. non-www."
 date: "2013-10-23"
 tags:
   - "search-projects"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

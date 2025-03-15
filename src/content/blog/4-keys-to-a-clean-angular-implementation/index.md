@@ -1,9 +1,11 @@
 ---
 title: "4 Keys to a Clean Angular Implementation"
-description: ""
+description: "Can there be true separation of concerns with MVC? Not entirely."
 date: "2016-10-17"
 tags:
   - "tips-and-tricks"
+  - "angular-projects"
+image: '../../../../public/static/1200x630_angular.jpg'
 authors: ["marklreyes"]
 ---
 

@@ -1,10 +1,11 @@
 ---
 title: "CompTIA Graduating Class of 2022"
-description: ""
+description: "Janaira from the San Diego Futures Foundation stops by to discuss the CompTIA program and their graduating class of 2022."
 date: "2022-01-25"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

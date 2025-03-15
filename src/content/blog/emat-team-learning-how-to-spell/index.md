@@ -1,13 +1,14 @@
 ---
 title: "EMAT Team spelling test!"
-description: ""
+description: "Behind the scenes with the Marketing Devs at Bridgepoint Education."
 date: "2013-10-18"
 tags:
   - "personal-log"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 
-Behind the scenes at BPIE!
+Behind the scenes at Bridgepoint Education!
 
 
 

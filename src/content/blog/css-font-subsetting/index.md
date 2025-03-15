@@ -1,9 +1,11 @@
 ---
 title: "CSS Font Subsetting"
-description: ""
+description: "Be selective in terms of what glyphs you want to leverage versus calling the entire set of glyphs in one large request."
 date: "2014-05-30"
 tags:
   - "tips-and-tricks"
+  - "web-design"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

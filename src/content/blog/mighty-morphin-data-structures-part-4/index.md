@@ -1,11 +1,12 @@
 ---
 title: "Mighty Morphin Data Structures, Part 4"
-description: ""
+description: "AllWebSD.com Season 6 demo, part 4, on data structures with a mighty morphin twist. Here we'll modify our queue into a priority queue."
 date: "2021-07-22"
 tags:
   - "data-structures"
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

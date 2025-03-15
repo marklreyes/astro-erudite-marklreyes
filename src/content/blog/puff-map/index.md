@@ -1,11 +1,12 @@
 ---
 title: "Puff Map"
-description: ""
+description: "This web asset illustrates the current state of Cannabis legalization throughout the USA."
 date: "2020-04-09"
 tags:
   - "cannabis-projects"
   - "data-visualizations"
   - "project-log"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

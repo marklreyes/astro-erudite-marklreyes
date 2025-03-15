@@ -1,9 +1,10 @@
 ---
 title: "Resources for Solr 4.5, Nutch 1.7 and AJAX Solr"
-description: ""
+description: "Documentation on how to set up an Apache Solr instance, crawl then index a website with Apache Nutch."
 date: "2013-11-01"
 tags:
   - "search-projects"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

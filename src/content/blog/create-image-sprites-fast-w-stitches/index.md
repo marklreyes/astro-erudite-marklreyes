@@ -1,9 +1,11 @@
 ---
 title: "Create image sprites FAST w/ Stitches"
-description: ""
+description: "Save time. You do not need to pawn this task to a designer."
 date: "2013-10-25"
 tags:
   - "tips-and-tricks"
+  - "web-design"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

@@ -1,9 +1,11 @@
 ---
 title: "Chase down rogue console.log(); statements"
-description: ""
+description: "Find console statements line-by-line by loading this JavaScript snippet."
 date: "2014-05-30"
 tags:
   - "tips-and-tricks"
+  - "javascript"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

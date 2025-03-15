@@ -1,10 +1,11 @@
 ---
 title: "Meet My Working Soul"
-description: ""
+description: "My Working Soul is a unique business and career resource, offering targeted, full-cycle support for career professionals."
 date: "2021-09-27"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

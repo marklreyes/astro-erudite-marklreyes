@@ -1,9 +1,11 @@
 ---
-title: "Dirty Tricks From The Dark  Corners Of Front-End"
-description: ""
+title: "Dirty Tricks From The Dark Corners Of Front-End"
+description: "Vitaly Friedman presents dirty practical techniques and clever ideas developed in actual real-life projects."
 date: "2016-03-24"
 tags:
   - "tips-and-tricks"
+  - "web-dev"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

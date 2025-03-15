@@ -1,11 +1,12 @@
 ---
 title: "Add FAQ to Shopify Collection in 5 Steps"
-description: ""
+description: "Learn how to add FAQ (Frequently Asked Questions) interface to a Shopify theme by leveraging editable sections."
 date: "2020-10-27"
 tags:
   - "5-steps-series"
   - "project-log"
   - "shopify-projects"
+image: '../../../../public/static/1200x630_shopify.jpg'
 authors: ["marklreyes"]
 ---
 

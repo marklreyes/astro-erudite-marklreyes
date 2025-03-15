@@ -1,10 +1,11 @@
 ---
 title: "Meet Well IQ"
-description: ""
+description: "Meet Peter Harnish, CEO of Well IQ - the accessible survey platform which strengthens patient and provider relationships."
 date: "2021-10-11"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

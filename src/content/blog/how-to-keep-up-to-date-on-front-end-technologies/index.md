@@ -4,6 +4,7 @@ description: ""
 date: "2014-04-01"
 tags:
   - "tips-and-tricks"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

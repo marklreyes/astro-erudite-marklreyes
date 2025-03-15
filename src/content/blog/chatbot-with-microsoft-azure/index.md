@@ -1,10 +1,11 @@
 ---
 title: "Chatbot with Microsoft Azure"
-description: ""
+description: "In lieu of SleepScore Labs newest sleep solution, SleepScore App, CS team wanted to create a chat alternative to support its launch."
 date: "2018-08-11"
 tags:
   - "chat-bot-projects"
   - "sleep-projects"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

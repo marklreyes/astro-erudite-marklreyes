@@ -1,9 +1,11 @@
 ---
 title: "Shortcuts for Chrome Dev Tools"
-description: ""
+description: "Search or navigate to files, methods or line numbers. Shortcuts for text search and beyond."
 date: "2013-03-15"
 tags:
   - "tips-and-tricks"
+  - "devtools"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

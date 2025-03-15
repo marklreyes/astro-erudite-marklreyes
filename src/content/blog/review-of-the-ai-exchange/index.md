@@ -1,10 +1,11 @@
 ---
 title: "Review of The AI Exchange"
-description: ""
+description: "Ever since Chat-GPT's November of 2022 release, it's been really hard to ignore the topic and its accelerated adoption."
 date: "2024-04-03"
 tags:
   - "ai"
   - "project-log"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

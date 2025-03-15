@@ -1,9 +1,11 @@
 ---
 title: "Differences between constructor vs ngOnInit() method"
-description: ""
+description: "Demystifying ngOnInit and constructor methods in Angular."
 date: "2018-07-25"
 tags:
   - "tips-and-tricks"
+  - "angular-projects"
+image: '../../../../public/static/1200x630_angular.jpg'
 authors: ["marklreyes"]
 ---
 

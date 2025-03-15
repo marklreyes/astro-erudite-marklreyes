@@ -1,9 +1,11 @@
 ---
 title: "jQuery Coding Standards"
-description: ""
+description: "A set of guidelines for jQuery programming."
 date: "2014-03-20"
 tags:
   - "tips-and-tricks"
+  - "jquery"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

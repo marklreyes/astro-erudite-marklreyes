@@ -1,9 +1,10 @@
 ---
 title: "Brainstorming + Focusing + Reducing Anxiety"
-description: ""
+description: "A quick explanation on note taking techniques I've personally found helpful from lifehacker and human guinea pig, Tim Ferriss."
 date: "2020-04-24"
 tags:
   - "tips-and-tricks"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 
