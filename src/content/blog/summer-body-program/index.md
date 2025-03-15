@@ -1,10 +1,11 @@
 ---
 title: "Summer Body Program"
-description: ""
+description: "Fun side project for a 5 week total body fitness program."
 date: "2020-01-06"
 tags:
-  - "personal-log"
+  - "project-log"
   - "sleep-projects"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

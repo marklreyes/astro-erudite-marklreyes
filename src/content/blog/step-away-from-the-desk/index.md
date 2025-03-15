@@ -1,10 +1,11 @@
 ---
 title: "Step Away From The Desk"
-description: ""
+description: "Coach Mikey talks about the value of stepping away from your desk and the fitness services he provides for the lifestyle athlete."
 date: "2021-05-26"
 tags:
   - "personal-log"
   - "podcast-projects"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 

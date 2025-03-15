@@ -1,9 +1,12 @@
 ---
 title: "SleepScore Labs Data Dashboard in Angular 2"
-description: ""
+description: "In April of 2017, I was tasked with design and development of a data visualization dashboard."
 date: "2017-12-30"
 tags:
   - "angular-projects"
+  - "project-log"
+  - "sleep-projects"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

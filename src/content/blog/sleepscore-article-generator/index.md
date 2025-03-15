@@ -1,9 +1,13 @@
 ---
 title: "SleepScore Article Generator"
-description: ""
+description: "Considering REST API calls for WordPress were available since version 4.7, I wanted to consume blog posts and reuse them."
 date: "2020-03-15"
 tags:
   - "angular-projects"
+  - "project-log"
+  - "sleep-projects"
+  - "wordpress"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

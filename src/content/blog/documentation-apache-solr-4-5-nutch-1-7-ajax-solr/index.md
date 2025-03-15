@@ -1,5 +1,5 @@
 ---
-title: "Documentation: Apache Solr 4.5, Nutch 1.7 &amp; AJAX Solr"
+title: "Documentation: Apache Solr 4.5, Nutch 1.7 & AJAX Solr"
 description: "Notes regarding implementation of Solr's open-source search platform."
 date: "2013-11-05"
 tags:

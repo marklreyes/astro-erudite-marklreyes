@@ -1,9 +1,11 @@
 ---
 title: "Simple PHP Proxy returns incorrect JSON from Apache Solr"
-description: ""
+description: "Implemented simple proxy to communicate to an Apache Solr instance outside of my domain."
 date: "2014-04-16"
 tags:
   - "search-projects"
+  - "php"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

@@ -1,11 +1,12 @@
 ---
 title: "SleepScore Web Portal"
-description: ""
+description: "A video walkthrough of an Angular Data Visualization Web App for a sleep improvement system."
 date: "2019-12-26"
 tags:
   - "angular-projects"
   - "data-visualizations"
   - "sleep-projects"
+image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 

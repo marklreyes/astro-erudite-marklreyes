@@ -5,7 +5,7 @@ date: "2024-06-18"
 tags:
   - "personal-log"
   - "podcast-projects"
-image: '../../../../public/static/1200x630_default.jpg'
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 
