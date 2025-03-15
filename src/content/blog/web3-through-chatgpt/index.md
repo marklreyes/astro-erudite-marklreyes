@@ -1,10 +1,12 @@
 ---
 title: "Web3 through ChatGPT"
-description: ""
+description: "Until I find an individual that could coach me through all things related to Web3, I decided to outsource it back to AI."
 date: "2024-06-20"
 tags:
   - "personal-log"
   - "podcast-projects"
+  - "ai"
+image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
 
