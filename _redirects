@@ -141,8 +141,16 @@
 /success-integrating-ajax-solr-with-solr-4-5		/blog/success-integrating-ajax-solr-with-solr-4-5
 /success-with-indexing-nutch-1						/blog/success-with-indexing-nutch-1
 
-
-
+#testimonials
+/web-podcast-consultant-testimonials/			/testimonials
+/testimonials-kinectify/						/testimonials
+/testimonials-veyo/								/testimonials
+/testimonials-sleepscore-labs/					/testimonials
+/testimonials-thermo-fisher-scientific/			/testimonials
+/testimonials-bridgepoint-education/			/testimonials
+/testimonials-active-network/					/testimonials
+/testimonials-sony-electronics/					/testimonials
+/other-testimonials/							/testimonials
 
 #fallback
 /*              https://marklreyes.com
