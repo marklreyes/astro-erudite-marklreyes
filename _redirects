@@ -164,8 +164,8 @@
 /allwebsd-podcast/									/tags/podcast-projects
 
 #subdomain article redirects
-# https://blog.marklreyes.com/upgrading-a-legacy-angular-web-app/	/blog/upgrading-a-legacy-angular-web-app	301!
-blog.marklreyes.com/* 				https://marklreyes.com/blog/:splat 301!
+https://blog.marklreyes.com/upgrading-a-legacy-angular-web-app/	https://marklreyes.com/blog/upgrading-a-legacy-angular-web-app	301!
+# blog.marklreyes.com/* 				https://marklreyes.com/blog/:splat 301!
 
 #fallback
 /*              									https://marklreyes.com
