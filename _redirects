@@ -143,15 +143,25 @@
 /110												/blog/frustrations-with-index-nutch-1-7-to-solor-4-5
 
 #testimonials
-/web-podcast-consultant-testimonials/			/testimonials
-/testimonials-kinectify/						/testimonials
-/testimonials-veyo/								/testimonials
-/testimonials-sleepscore-labs/					/testimonials
-/testimonials-thermo-fisher-scientific/			/testimonials
-/testimonials-bridgepoint-education/			/testimonials
-/testimonials-active-network/					/testimonials
-/testimonials-sony-electronics/					/testimonials
-/other-testimonials/							/testimonials
+/web-podcast-consultant-testimonials/				/testimonials
+/testimonials-kinectify/							/testimonials
+/testimonials-veyo/									/testimonials
+/testimonials-sleepscore-labs/						/testimonials
+/testimonials-thermo-fisher-scientific/				/testimonials
+/testimonials-bridgepoint-education/				/testimonials
+/testimonials-active-network/						/testimonials
+/testimonials-sony-electronics/						/testimonials
+/other-testimonials/								/testimonials
+
+#about
+/about-me/											/about
+/experience-summary/								/about
+
+#contact
+/contact/											/links
+
+#podcast
+/allwebsd-podcast/									/tags/podcast-projects
 
 #fallback
-/*              https://marklreyes.com
+/*              									https://marklreyes.com
