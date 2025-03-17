@@ -32,6 +32,7 @@ const authors = defineCollection({
     pronouns: z.string().optional(),
     avatar: z.string().url(),
     bio: z.string().optional(),
+    belt: z.string().optional(),
     mail: z.string().email().optional(),
     website: z.string().url().optional(),
     twitter: z.string().url().optional(),

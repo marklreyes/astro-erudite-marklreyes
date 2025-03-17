@@ -15,6 +15,7 @@ const {
   name,
   avatar,
   bio,
+	belt,
   pronouns,
   github,
   twitter,
@@ -64,6 +65,9 @@ const socialLinks: SocialLink[] = [
         </div>
         <p class="text-sm text-muted-foreground">{bio}</p>
       </div>
+			<div class="flex flex-wrap items-center gap-x-2">
+				<p class="text-sm text-muted-foreground">{belt}</p>
+			</div>
       <SocialIcons links={socialLinks} />
     </div>
   </div>
