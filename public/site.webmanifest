@@ -1,6 +1,6 @@
 {
-  "name": "erudite",
-  "short_name": "erudite",
+  "name": "marklreyes.com",
+  "short_name": "marklreyes",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#121212",
-  "background_color": "#121212",
+  "theme_color": "#343434",
+  "background_color": "#343434",
   "display": "standalone"
 }
