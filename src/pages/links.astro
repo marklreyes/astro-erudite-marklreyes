@@ -5,7 +5,6 @@ import { SITE } from '@/consts'
 import Layout from '@/layouts/Layout.astro'
 import Link from '@/components/Link.astro'
 import { Icon } from 'astro-icon/components'
-import { Image } from 'astro:assets'
 
 ---
 <Layout title="Links" description={SITE.DESCRIPTION}>
@@ -13,13 +12,12 @@ import { Image } from 'astro:assets'
 		<Breadcrumbs items={[{ label: 'Links', icon: 'lucide:info' }]} />
 		<section class="w-full max-w-md mx-auto mt-8 space-y-4">
 			<div class="flex justify-center mb-4">
-				<Image
-					src="https://avatars.githubusercontent.com/u/1628070?v=4"
-					alt="Mark L. Reyes"
+				<img
+					src="../../public/static/mark_avatar_green_360x360.jpg" alt="Mark L. Reyes"
 					width={120}
 					height={120}
 					class="rounded-full"
-				/>
+				>
 			</div>
 			<h1 class="text-xl font-bold text-center mb-6">Front End Engineer | Podcast Producer | Advocate @ marklreyes.com</h1>
 			<Link href="https://www.puffprovisions.com/puffprovisionsweekly/issue-306/" external={true} class="block w-full py-3 px-4 bg-[#6bba62] text-black text-center font-medium rounded-lg transition-colors duration-200">
