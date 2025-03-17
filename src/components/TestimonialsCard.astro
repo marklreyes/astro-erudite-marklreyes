@@ -19,17 +19,15 @@ href={testimonial.data.link}
 class="flex flex-col gap-4 sm:flex-row"
 external
 >
-  <Card className="p-4">
+  <Card className="bg-inherit border-0">
 	<CardContent>
 	  <q class="text-gray-600 dark:text-gray-300">
 		{testimonial.data.quote}
 	  </q>
 	  <div class="mt-6 flex gap-3">
-		<span class="inline-flex rounded-full">
+		<span class="inline-flex">
 		  <Image
-			class="h-10 w-10 rounded-full"
-			height={40}
-			width={40}
+			class="h-10 w-10"
 			alt={testimonial.data.name}
 			src={testimonial.data.image}
 			loading="lazy"
