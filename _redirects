@@ -164,7 +164,7 @@
 /allwebsd-podcast/									/tags/podcast-projects
 
 #subdomain
-/blog/*															https://marklreyes.com/blog/:splat								301!
+/blog/*												https://marklreyes.com/blog	301!
 
 #fallback
 /*              									https://marklreyes.com
