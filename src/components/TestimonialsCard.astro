@@ -1,0 +1,50 @@
+---
+import Link from '@/components/Link.astro'
+import { Image } from 'astro:assets'
+import type { CollectionEntry } from 'astro:content'
+import { Card, CardContent, } from '@/components/ui/card'
+
+type Props = {
+  testimonial: CollectionEntry<'testimonials'>
+}
+
+const { testimonial } = Astro.props
+---
+
+<div
+  class="not-prose rounded-xl border p-4 transition-colors duration-300 ease-in-out hover:bg-secondary/50"
+>
+<Link
+href={testimonial.data.link}
+class="flex flex-col gap-4 sm:flex-row"
+external
+>
+  <Card className="p-4">
+	<CardContent>
+	  <q class="text-gray-600 dark:text-gray-300">
+		{testimonial.data.quote}
+	  </q>
+	  <div class="mt-6 flex gap-3">
+		<span class="inline-flex rounded-full">
+		  <Image
+			class="h-10 w-10 rounded-full"
+			height={40}
+			width={40}
+			alt={testimonial.data.name}
+			src={testimonial.data.image}
+			loading="lazy"
+		  />
+		</span>
+		<div>
+		  <p class="text-sm font-semibold text-gray-900 dark:text-white">
+			{testimonial.data.name}
+		  </p>
+		  <p class="text-sm text-gray-500 dark:text-gray-400">
+			{testimonial.data.role}
+		  </p>
+		</div>
+	  </div>
+	</CardContent>
+  </Card>
+</Link>
+</div>

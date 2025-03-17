@@ -15,7 +15,7 @@ export type Link = {
 export const SITE: Site = {
   TITLE: 'Mark L. Reyes',
   DESCRIPTION:
-    'astro-erudite is a opinionated, no-frills blogging template—built with Astro, Tailwind, and shadcn/ui.',
+    'Multi-hyphenate specializing in web dev and podcasts based in Southern California. Work with me on your next project!',
   EMAIL: 'mr@marklreyes.com',
   NUM_POSTS_ON_HOMEPAGE: 2,
   POSTS_PER_PAGE: 3,
@@ -26,6 +26,7 @@ export const NAV_LINKS: Link[] = [
   { href: '/blog', label: 'blog' },
   { href: '/authors', label: 'authors' },
   { href: '/about', label: 'about' },
+  { href: '/testimonials', label: 'testimonials' },
   { href: '/tags', label: 'tags' },
 ]
 

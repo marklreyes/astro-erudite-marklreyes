@@ -53,4 +53,22 @@ const projects = defineCollection({
     }),
 })
 
-export const collections = { blog, authors, projects }
+const testimonials = defineCollection({
+	loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/testimonials' }),
+	schema: ({ image }) =>
+		z.object({
+			quote: z.string(),
+			name: z.string(),
+			image: image(),
+			role: z.string(),
+			link: z.union([
+				z.string().url(),  // Absolute URLs
+				z.string().refine(
+					(val) => val.startsWith('/') || val.startsWith('./') || val.startsWith('../'),
+					{ message: "Relative paths must start with '/', './', or '../'" }
+				)
+			]),
+		}),
+})
+
+export const collections = { blog, authors, projects, testimonials }
