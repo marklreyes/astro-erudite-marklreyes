@@ -165,7 +165,6 @@
 
 #subdomain
 https://blog.marklreyes.com/upgrading-a-legacy-angular-web-app/	https://marklreyes.com/blog/upgrading-a-legacy-angular-web-app/	301!
-/blog/*															https://marklreyes.com/blog/									301!
 
 #fallback
 /*              									https://marklreyes.com
