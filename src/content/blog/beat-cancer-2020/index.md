@@ -6,6 +6,7 @@ tags:
   - "charitable-objectives"
   - "personal-log"
   - "advocacy"
+  - "jiu-jitsu"
 image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---

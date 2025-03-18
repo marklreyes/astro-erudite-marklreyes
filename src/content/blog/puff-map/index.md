@@ -6,6 +6,7 @@ tags:
   - "cannabis-projects"
   - "data-visualizations"
   - "project-log"
+  - "advocacy"
 image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---

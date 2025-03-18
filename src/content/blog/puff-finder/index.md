@@ -6,6 +6,7 @@ tags:
   - "cannabis-projects"
   - "project-log"
   - "vue-projects"
+  - "advocacy"
 image: '../../../../public/static/1200x630_vue.jpg'
 authors: ["marklreyes"]
 ---
