@@ -2,11 +2,13 @@
 import Breadcrumbs from '@/components/Breadcrumbs.astro'
 import Container from '@/components/Container.astro'
 import ProjectCard from '@/components/ProjectCard.astro'
+import AuthorCard from '@/components/AuthorCard.astro'
 import { SITE } from '@/consts'
 import Layout from '@/layouts/Layout.astro'
 import { getCollection } from 'astro:content'
 
 const projects = await getCollection('projects')
+const authors = await getCollection('authors')
 ---
 
 <Layout title="About" description={SITE.DESCRIPTION}>
@@ -15,50 +17,66 @@ const projects = await getCollection('projects')
 
     <section>
       <div class="min-w-full">
-				<h2 class="mb-4 text-2xl font-semibold">Introduction</h2>
+		<h2 class="mb-4 text-2xl font-semibold">About Mark</h2>
         <div class="prose prose-neutral mb-8 dark:prose-invert">
-					<p class="mb-4">
-						On any given day, once the caffeine kicks in, my mind is buzzing with questions:
-					</p>
-					<ul>
-						<li>
-							Is this new technology truly groundbreaking or just a passing trend?
-						</li>
-						<li>
-							How do idioms from various programming languages influence my approach?
-						</li>
-						<li>
-							How big is my bug queue, and did we groom our backlog?
-						</li>
-						<li>
-							Are my estimates accurate, and will my solution scale?
-						</li>
-					</ul>
-					<p class="mb-4">
-						With {new Date().getFullYear() - 2007} years of experience in the web industry—{new Date().getFullYear() - 2009} of those focused on front-end development—I bring a deep understanding of the presentation layer of your web experience. However, before writing a single line of code, I prioritize understanding your core business objectives to ensure my work aligns with your goals.
-					</p>
-					<p class="mb-4">
-						I’ve had the privilege of working with renowned organizations such as Sony Electronics, The Active Network, Bridgepoint Education, and Thermo Fisher Scientific. My contributions have even been spotlighted on JavaScript Weekly and Today with Hoda & Jenna.
-					</p>
+			{
+				authors.length > 0 ? (
+				<ul class="not-prose flex flex-col gap-4">
+					{authors.map((author) => (
+					<li>
+						<AuthorCard author={author} />
+					</li>
+					))}
+				</ul>
+				) : (
+				<p class="text-center text-muted-foreground">No authors found.</p>
+				)
+			}
         </div>
-				<h2 class="mb-4 text-2xl font-semibold">Recent Experience</h2>
-				<div class="prose prose-neutral mb-8 dark:prose-invert">
-					<ul>
-						<li>
-							<strong>SleepScore Labs:</strong>&nbsp;Developed web applications to help users understand and improve their sleep.
-						</li>
-						<li>
-							<strong>MTM:</strong>&nbsp;Collaborated with cross-functional teams to create web apps that connect patients and healthcare providers with innovative, cost-effective solutions.
-						</li>
-						<li>
-								<strong>Kinectify:</strong>&nbsp;As Principal Front-End Engineer, I led front-end development across multiple teams, supporting AML software for the Gaming & Sports Betting industries.
-						</li>
-					</ul>
+		<h2 class="mb-4 text-2xl font-semibold">Introduction</h2>
+        <div class="prose prose-neutral mb-8 dark:prose-invert">
+			<p class="mb-4">
+				On any given day, once the caffeine kicks in, my mind is buzzing with questions:
+			</p>
+			<ul>
+				<li>
+					Is this new technology truly groundbreaking or just a passing trend?
+				</li>
+				<li>
+					How do idioms from various programming languages influence my approach?
+				</li>
+				<li>
+					How big is my bug queue, and did we groom our backlog?
+				</li>
+				<li>
+					Are my estimates accurate, and will my solution scale?
+				</li>
+			</ul>
+			<p class="mb-4">
+				With {new Date().getFullYear() - 2007} years of experience in the web industry—{new Date().getFullYear() - 2009} of those focused on front-end development—I bring a deep understanding of the presentation layer of your web experience. However, before writing a single line of code, I prioritize understanding your core business objectives to ensure my work aligns with your goals.
+			</p>
+			<p class="mb-4">
+				I’ve had the privilege of working with renowned organizations such as Sony Electronics, The Active Network, Bridgepoint Education, and Thermo Fisher Scientific. My contributions have even been spotlighted on JavaScript Weekly and Today with Hoda & Jenna.
+			</p>
         </div>
-				<h2 class="mb-4 text-2xl font-semibold">Beyond the Code</h2>
-				<div class="prose prose-neutral mb-8 dark:prose-invert">
-					As a self-described multi-hyphenate, I’m also a <strong>Podcast Producer</strong>, having written and produced over 100+ shows featured on Apple Podcasts, Google Podcasts, Spotify, Castbox, and more. If you’re looking to pair your web project with a complementary medium, consider these attributes and inquire with me directly on how this value-add could work for your organization.
+		<h2 class="mb-4 text-2xl font-semibold">Recent Experience</h2>
+		<div class="prose prose-neutral mb-8 dark:prose-invert">
+			<ul>
+				<li>
+					<strong>SleepScore Labs:</strong>&nbsp;Developed web applications to help users understand and improve their sleep.
+				</li>
+				<li>
+					<strong>MTM:</strong>&nbsp;Collaborated with cross-functional teams to create web apps that connect patients and healthcare providers with innovative, cost-effective solutions.
+				</li>
+				<li>
+						<strong>Kinectify:</strong>&nbsp;As Principal Front-End Engineer, I led front-end development across multiple teams, supporting AML software for the Gaming & Sports Betting industries.
+				</li>
+			</ul>
         </div>
+		<h2 class="mb-4 text-2xl font-semibold">Beyond the Code</h2>
+		<div class="prose prose-neutral mb-8 dark:prose-invert">
+			As a self-described multi-hyphenate, I’m also a <strong>Podcast Producer</strong>, having written and produced over 100+ shows featured on Apple Podcasts, Google Podcasts, Spotify, Castbox, and more. If you’re looking to pair your web project with a complementary medium, consider these attributes and inquire with me directly on how this value-add could work for your organization.
+		</div>
         <h2 class="mb-4 text-2xl font-semibold">Projects Listing</h2>
         <div class="flex flex-col gap-4">
           {projects.map((project) => <ProjectCard project={project} />)}
