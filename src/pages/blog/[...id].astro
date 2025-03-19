@@ -198,4 +198,25 @@ const authors = await parseAuthors(post.data.authors ?? [])
       }
     })
   </script>
+  <script>
+    // Import the function
+    import { createSheldon } from "../../lib/sheldon";
+    // Extend the Window interface
+    declare global {
+      interface Window {
+        Sheldon: ReturnType<typeof createSheldon>;
+      }
+    }
+
+		// Initialize inside the astro:page-load event listener so it runs on every page navigation
+    document.addEventListener('astro:page-load', () => {
+      // Create Sheldon if we are on the specific blog post
+      if (window.location.pathname === "/blog/the-friendship-algorithm-in-javascript") {
+        window.Sheldon = createSheldon();
+      } else {
+        // Otherwise, create a dummy Sheldon object with an empty ask method...can't use null.
+        window.Sheldon = { ask: () => {} };
+      }
+    });
+  </script>
 </Layout>
