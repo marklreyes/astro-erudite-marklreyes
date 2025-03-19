@@ -55,7 +55,7 @@ export const createSheldon = () => {
         } else {
 
             //Create the array that the interests will be assigned to.
-            const collectResponses = [];
+            const collectResponses: string[] = [];
 
             //Howard's loop counter.
             let n = 0;
