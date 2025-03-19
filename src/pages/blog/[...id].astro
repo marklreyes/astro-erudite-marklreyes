@@ -211,7 +211,8 @@ const authors = await parseAuthors(post.data.authors ?? [])
 		// Initialize inside the astro:page-load event listener so it runs on every page navigation
     document.addEventListener('astro:page-load', () => {
       // Create Sheldon if we are on the specific blog post
-      if (window.location.pathname === "/blog/the-friendship-algorithm-in-javascript") {
+			const isSheldonBlogPost = window.location.pathname.startsWith("/blog/the-friendship-algorithm-in-javascript");
+      if (isSheldonBlogPost) {
         window.Sheldon = createSheldon();
       } else {
         // Otherwise, create a dummy Sheldon object with an empty ask method...can't use null.
