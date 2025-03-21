@@ -4,6 +4,8 @@ description: ""
 date: "2020-01-07"
 tags:
   - "data-visualizations"
+  - "google-charts"
+  - "wordpress"
   - "sleep-projects"
   - "project-log"
   - "vue-projects"
@@ -23,3 +25,4 @@ A video walkthrough of a VueJS Data Visualization Web App I developed for SleepS
 - Bootstrap 4, Bootstrap Vue
 - jQuery
 - Google Charts
+- WordPress

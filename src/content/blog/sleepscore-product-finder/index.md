@@ -6,6 +6,7 @@ tags:
   - "vue-projects"
   - "project-log"
   - "sleep-projects"
+  - "wordpress"
 image: '../../../../public/static/1200x630_vue.jpg'
 authors: ["marklreyes"]
 ---
@@ -19,3 +20,4 @@ A video walkthrough of a VueJS Web App I developed for SleepScore.com. This app 
 - Vue CLI
 - Vuidget - Vue.js embeddable widget
 - Bootstrap 4, Bootstrap Vue
+- WordPress
