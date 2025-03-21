@@ -7,6 +7,8 @@ tags:
   - "python-projects"
   - "sleep-projects"
   - "project-log"
+  - "d3"
+  - "chart-js"
 image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---

@@ -5,6 +5,8 @@ date: "2019-12-26"
 tags:
   - "angular-projects"
   - "data-visualizations"
+  - "highcharts"
+  - "azure"
   - "sleep-projects"
 image: '../../../../public/static/1200x630_angular.jpg'
 authors: ["marklreyes"]

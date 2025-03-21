@@ -5,8 +5,10 @@ date: "2020-04-09"
 tags:
   - "cannabis-projects"
   - "data-visualizations"
+  - "d3"
   - "project-log"
   - "advocacy"
+  - "wordpress"
 image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
@@ -22,3 +24,4 @@ This asset is powered by JavaScript charting library, D3.js.
 ## Core Technologies
 
 - D3.js
+- WordPress
