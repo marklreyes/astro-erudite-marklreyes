@@ -50,13 +50,22 @@ const blog = (await getCollection('blog'))
 									</svg>
 								</button>
 								/ˌmʌl.tiˈhaɪ.fə.nət/ &bull; <span class="font-semibold">noun</span>
-					<script>
-						document.getElementById('pronounceBtn')?.addEventListener('click', () => {
-							const utterance = new SpeechSynthesisUtterance('multi hyphenate');
-							utterance.rate = 0.9;
-							window.speechSynthesis.speak(utterance);
+          <script>
+						document.addEventListener('astro:page-load', () => {
+							const pronounceBtn = document.getElementById('pronounceBtn');
+							const handleClick = () => {
+								const utterance = new SpeechSynthesisUtterance('multi hyphenate');
+								utterance.rate = 0.9;
+								window.speechSynthesis.speak(utterance);
+							};
+
+							pronounceBtn?.addEventListener('click', handleClick);
+
+							document.addEventListener('astro:page-unload', () => {
+								pronounceBtn?.removeEventListener('click', handleClick);
+							}, { once: true });
 						});
-					</script>
+          </script>
 					</CardDescription>
         </CardHeader>
         <CardContent>
