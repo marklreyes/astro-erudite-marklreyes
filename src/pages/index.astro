@@ -26,14 +26,45 @@ const blog = (await getCollection('blog'))
       <Card>
         <CardHeader>
           <CardTitle className="text-3xl">multi-hyphenate</CardTitle>
-          <CardDescription
-            >/ˌmʌl.tiˈhaɪ.fə.nət/ &bull; <span class="font-semibold">noun</span
-            ></CardDescription
-          >
+						<CardDescription className="flex items-center gap-1">
+									<button
+									id="pronounceBtn"
+									aria-label="Pronounce multi-hyphenate"
+									title="Click to hear pronunciation"
+									class="inline-flex items-center justify-center rounded-full p-1 text-sm hover:bg-muted hover:text-accent-foreground"
+								>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="16"
+										height="16"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									>
+										<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+										<path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+										<path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+									</svg>
+								</button>
+								/ˌmʌl.tiˈhaɪ.fə.nət/ &bull; <span class="font-semibold">noun</span>
+					<script>
+						document.getElementById('pronounceBtn')?.addEventListener('click', () => {
+							const utterance = new SpeechSynthesisUtterance('multi hyphenate');
+							utterance.rate = 0.9;
+							window.speechSynthesis.speak(utterance);
+						});
+					</script>
+					</CardDescription>
         </CardHeader>
         <CardContent>
           <p class="mb-2 text-sm text-muted-foreground">
-            A person with multiple professions or skills, often described with hyphenated roles.
+						A <Link href="/about" class="font-bold relative inline-block group">
+							<span class="relative z-10 transition-colors duration-300">person</span>
+							<span class="absolute inset-0 rounded-sm bg-accent/20 opacity-0 group-hover:opacity-100 transition-all duration-500 blur-[1px]"></span>
+						</Link> with multiple professions or skills, often described with hyphenated roles.
           </p>
         </CardContent>
       </Card>
