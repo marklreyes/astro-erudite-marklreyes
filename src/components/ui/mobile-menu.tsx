@@ -17,14 +17,18 @@ const MobileMenu = () => {
       setIsOpen(false)
     }
 
+		const handleViewTransitionEnd = () => {
+			setIsOpen(false)
+		}
+
     document.addEventListener('astro:before-swap', handleViewTransitionStart)
+		document.addEventListener('astro:after-swap', handleViewTransitionEnd)
+
 
     return () => {
-      document.removeEventListener(
-        'astro:before-swap',
-        handleViewTransitionStart,
-      )
-    }
+      document.removeEventListener('astro:before-swap', handleViewTransitionStart)
+			document.removeEventListener('astro:after-swap', handleViewTransitionEnd)
+		}
   }, [])
 
   return (

@@ -9,9 +9,8 @@ import { Laptop, Moon, Sun } from 'lucide-react'
 import * as React from 'react'
 
 export function ModeToggle() {
-  const [theme, setThemeState] = React.useState<
-    'theme-light' | 'dark' | 'system'
-  >('theme-light')
+  const [theme, setThemeState] = React.useState<'theme-light' | 'dark' | 'system'>('theme-light')
+  const [isOpen, setIsOpen] = React.useState(false)
 
   React.useEffect(() => {
     const isDarkMode = document.documentElement.classList.contains('dark')
@@ -37,8 +36,26 @@ export function ModeToggle() {
     })
   }, [theme])
 
+  React.useEffect(() => {
+    const handleViewTransitionStart = () => {
+      setIsOpen(false) // Close the menu when navigation starts
+    }
+
+		const handleViewTransitionEnd = () => {
+			setIsOpen(false)
+		}
+
+    document.addEventListener('astro:before-swap', handleViewTransitionStart)
+		document.addEventListener('astro:after-swap', handleViewTransitionEnd)
+
+    return () => {
+      document.removeEventListener('astro:before-swap', handleViewTransitionStart)
+			document.removeEventListener('astro:after-swap', handleViewTransitionEnd)
+    }
+  }, [])
+
   return (
-    <DropdownMenu modal={false}>
+    <DropdownMenu open={isOpen} onOpenChange={setIsOpen} modal={false}>
       <DropdownMenuTrigger asChild>
         <Button
           variant="outline"
