@@ -80,7 +80,8 @@ Outside of styling the improbable, what I found to be most interesting was dabbl
 Honestly, my mental cardio **DIED** when I couldn't God mode the style palette for the original component. Thus, a sit down with GitHub CoPilot through VS Code was certainly used. That said, in order to keep Maverick from gun slinging a bit too much I stubbed in Angular's pseudo-class selector called `:host` to target that component directly. That's more of a placeholder for *Future Mark* in the event *he* wants to refine the CSS in a different direction.
 
 > It’s not the plane, it's the pilot.
-— Top Gun Maverick
+>
+-- <cite>Top Gun: Maverick</cite>
 
 ### About Options Service
 
@@ -88,7 +89,7 @@ I probably could've just stubbed the [data](https://github.com/marklreyes/angula
 
 ### Final Thoughts
 
-Some of these thoughts were courtesy of habits infused in a pre-renaissance ng-world, but it's been fascinating to see how Angular v17+ has come back to let me know that they've still got it going on as the one-stop shop for single-page web apps.
+Some of these thoughts were courtesy of habits infused in a pre-renaissance ng-world, so a few more mental model updates are needed but it's been fascinating to see how Angular v17+ has come back to let me know that they've still got it going on as the one-stop shop for single-page web apps.
 
 Have some fun and feel free to fork the repo or PR back to [Angular 19 Custom Select Components Demo](https://github.com/marklreyes/angular19-custom-select-component). Dependabot is enabled so dependencies are up-to-date!
 
