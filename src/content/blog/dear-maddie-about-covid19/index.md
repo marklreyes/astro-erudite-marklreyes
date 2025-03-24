@@ -8,6 +8,8 @@ image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 
+<div style="--aspect-ratio: 16/9;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LNHfKAbTrbA?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 A quick pen for my daughter with hopes she revisits this message some time in the future.

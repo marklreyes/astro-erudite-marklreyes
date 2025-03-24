@@ -10,8 +10,9 @@ tags:
 image: '../../../../public/static/1200x630_angular.jpg'
 authors: ["marklreyes"]
 ---
-
+<div style="--aspect-ratio: 16/9;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0l6o9whvrqw?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Considering REST API calls for WordPress were available since version 4.7, to me this was an opportunity to make a new experience. I wanted to consume blog posts and reuse them.
 

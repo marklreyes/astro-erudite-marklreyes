@@ -12,7 +12,9 @@ authors: ["marklreyes"]
 
 In the words of Michael Scott I should've just said,
 
+<div style="--aspect-ratio: 16/9;">
 <iframe class="giphy-embed" src="https://giphy.com/embed/12XMGIWtrHBl5e" width="480" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
 
 Ok...maybe that was a bit extreme but that's the rabbit hole I found myself spiraling into at the onset of September 2018. I thought it was just another casual day in the office - copy/pasting code from Stack Overflow 😏, _learning_ Spanish (different story...different day...) and establishing myself as The 🐐 in startup foosball.
 
@@ -38,7 +40,9 @@ So, here I am 10+ years later with a specific goal in mind. 4 months to train. L
 
 But first,
 
+<div style="--aspect-ratio: 16/9;">
 <iframe class="giphy-embed" src="https://giphy.com/embed/5xtDarqlsEW6F7F14Fq" width="480" height="270" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
 
 Several flutes later, I managed to write down what I needed to address this. Here's what it looked like:
 
@@ -46,7 +50,9 @@ Several flutes later, I managed to write down what I needed to address this. Her
 
 ✔️ Download Strava App. ✔️ Kick the dust off of my Nike FuelBand. _Derppp_...I mean download the Nike Run Club App. ✔️ Find a running community (aka peer pressure from work colleagues). ✔️ Purchase running tank tops. ✔️ Purchase running shoes (back to this later 🤔). ✔️ But more importantly, purchase short shorts.
 
+<div style="--aspect-ratio: 16/9;">
 <iframe class="giphy-embed" src="https://giphy.com/embed/7pEIpqWls5S2Q" width="480" height="353" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
 
 Okay, I'll be honest. I'm pretty much covered in DRI FIT.
 

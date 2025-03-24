@@ -15,7 +15,9 @@ My Working Soul is a unique business and career resource, offering targeted, ful
 
 * * *
 
+<div style="--aspect-ratio: 16/9;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tHa6nP40Os0?si=df8ceK0ekmm2HOjp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 * * *
 

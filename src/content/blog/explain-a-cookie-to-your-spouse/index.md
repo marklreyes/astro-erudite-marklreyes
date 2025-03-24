@@ -25,7 +25,8 @@ Today, I’m joined by co-worker, colleague and friend, [Daniel Gurtner](https:/
 
 > _This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish._
 >
-> Website after website after website...
+-- <cite>Website after website after website...</cite>
+
 
 - Without Googling it and in your own words, explain to your spouse what a cookie is?
 - Options for people who have privacy concerns.

@@ -19,7 +19,8 @@ Today I'm joined by [Gabe Balanag](https://www.linkedin.com/in/gabebalanag/), Te
 
 > One example, is if you have 26 or more employees, you need to have at least 80 hours of sick leave time that you're able to give to your employees.
 >
-> Gabe Balanag regarding new laws caused by COVID-19
+-- <cite>Gabe Balanag regarding new laws caused by COVID-19</cite>
+
 
 ## **Highlighted Topics**
 

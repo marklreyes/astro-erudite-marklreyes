@@ -58,7 +58,9 @@ In 2020, I’ll be fighting. However, this is no ordinary fight. I am taking par
 
 **I'm raising funds in support of [Tap Cancer Out](https://wecan.tapcancerout.org/markreyes), a 501(c)(3) charitable organization, and their beneficiary organization—**[**Alex's Lemonade Stand**](https://www.alexslemonade.org/)**.**
 
+<div style="--aspect-ratio: 16/9;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xeBulgVzSvs?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Since 2012, tournaments like this one have helped Tap Cancer Out raise and donate more than $1.36 million for various cancer causes including the Leukemia & Lymphoma Society,  St. Baldrick's, and the Pancreatic Cancer Action Network.
 
