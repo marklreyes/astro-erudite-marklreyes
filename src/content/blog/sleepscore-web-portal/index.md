@@ -12,7 +12,9 @@ image: '../../../../public/static/1200x630_angular.jpg'
 authors: ["marklreyes"]
 ---
 
+<div style="--aspect-ratio: 16/9;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H9QGvK8ZMSM?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 A video walkthrough of an Angular Data Visualization Web App I developed for SleepScore's App & Max Sleep Improvement Systems. The end user is able to look at additional data sets pertinent to their previously recorded sleep sessions.
 

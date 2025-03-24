@@ -16,7 +16,8 @@ This is Edel John Marcelino of [Beacon Cloud Solutions](https://www.beaconclouds
 
 > Look at it (digital data) like you would anything else...I'm sure everyone still has file cabinets full of paper files...if I lost those paper files, what would happen?
 >
-> Edel John Marcelino, Engineer at Beacon Cloud Solutions
+-- <cite>Edel John Marcelino, Engineer at Beacon Cloud Solutions</cite>
+
 
 ## Highlighted Topics
 

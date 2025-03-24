@@ -7,6 +7,7 @@ tags:
   - "project-log"
   - "vue-projects"
   - "advocacy"
+  - "wordpress"
 image: '../../../../public/static/1200x630_vue.jpg'
 authors: ["marklreyes"]
 ---
@@ -17,7 +18,9 @@ Meet [Puff Finder](https://www.puffprovisions.com/puff-finder/) - a web tool for
 
 This asset was made for Puff Provisions LLC, a news and media company based out of Southern California.
 
+<div style="--aspect-ratio: 16/9;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tWN_nUcagyk?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Core Technologies
 
@@ -25,3 +28,4 @@ This asset was made for Puff Provisions LLC, a news and media company based out 
 - Vuidget - Vue.js embeddable widget
 - Bootstrap 4, Bootstrap Vue
 - RapidAPI
+- WordPress

@@ -29,4 +29,6 @@ I started out strong but was unable to maintain a dominant series and ended the 
 
 That said, the overall event exceeded it's goal with a final tally of $150K+. My donation page is still very much active, so please consider a [donation](https://wecan.tapcancerout.org/markreyes) to Tap Cancer Out which directly benefits [Alex's Lemonade Stand](https://www.alexslemonade.org/about/meet-alex) and their mission to change the lives of children with cancer through funding impactful research, raising awareness, supporting families, and empowering everyone to help cure childhood cancer.
 
+<div style="--aspect-ratio: 16/9;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_xvZGZ1sL_M?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

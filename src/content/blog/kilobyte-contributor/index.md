@@ -18,8 +18,9 @@ Welcome to Season 9 of AllWebSD. This season is dedicated to my colleagues at th
 [![the aI exchange Dive into our trainings & join our community opf 1500+ early adopters applying AI in their business and work](images/970x90_ad_aix.jpg)](https://courses.theaiexchange.com/courses/prompting-for-ai-ops-bootcamp?ref=2b3231)
 
 * * *
-
+<div style="--aspect-ratio: 16/9;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n5HwVe1kvi8?si=koixYTtcKQLKllLx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 * * *
 

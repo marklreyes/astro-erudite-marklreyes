@@ -28,8 +28,7 @@ Through a series of short chapters, a total of 7, he takes you on this well expl
 
 Cal defines the meaning of Digital Minimalism quickly as,
 
->
-> “A philosophy of technology use in which you focus your online time on a small number of carefully selected and optimized activities that strongly support things you value, and then happily miss out on everything else.”
+> A philosophy of technology use in which you focus your online time on a small number of carefully selected and optimized activities that strongly support things you value, and then happily miss out on everything else.
 
 Addiction - not only relates to alcohol and drugs but is thoroughly explained in relation to our digital consumption too. Two forces in particular are explained: intermittent positive reinforcement and the drive for social approval. It’s a pretty nasty explanation on how the Like button impacts us.
 

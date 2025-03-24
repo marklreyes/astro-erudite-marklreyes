@@ -21,9 +21,10 @@ You see, that very much happened just a few hours ago and one question in partic
 
 ## **The Loaded Question**
 
-> _What are some of his/her weaknesses?_
+> What are some of his/her weaknesses?
 >
-> \- Hiring Manager
+-- <cite>Hiring Manager</cite>
+
 
 ## **Dear Recruiters**
 

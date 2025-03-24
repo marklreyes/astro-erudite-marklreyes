@@ -17,7 +17,7 @@ Please welcome a member of the San Diego Tech Hub community, he is CEO and Co-F
 
 > We connect patients and families to community and resources that are critical to their care in their time of need.
 >
-> Jaden Risner, CEO of Family Proud
+-- <cite>Jaden Risner, CEO of Family Proud</cite>
 
 ## Highlighted Topics
 

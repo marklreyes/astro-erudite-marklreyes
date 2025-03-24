@@ -8,8 +8,9 @@ tags:
 image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
-
+<div style="--aspect-ratio: 16/9;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WoL4BfSv7pI" frameborder="0" allowfullscreen></iframe>
+</div>
 
 [You Don't Know JS: Coercion](http://fluentconf.com/javascript-html-2015/public/schedule/detail/39142 "You Don't Know JS: Coercion")
 

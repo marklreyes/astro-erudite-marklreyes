@@ -21,9 +21,9 @@ Tonight I’m joined by my wife Kyung Mi, Senior Data Administrator for San Dieg
 
 Yes, you heard that right. SQL aka _Structured Query Language_. For me, the non-traditionalist, I say _Sequel_.
 
-> “…it never ends…like I feel like I don’t have a stop point where I can actually pull back from my day to day job to learn something new”
+> …it never ends…like I feel like I don’t have a stop point where I can actually pull back from my day to day job to learn something new
 >
-> \- My wife (when I asked what's making it hard at the moment to pick up a new thing to learn)
+-- <cite>My wife (when I asked what's making it hard at the moment to pick up a new thing to learn)</cite>
 
 <iframe src="https://castbox.fm/app/castbox/player/id2933770/id331311965?v=8.22.11&amp;autoplay=0" frameborder="0" width="100%" height="500"></iframe>
 

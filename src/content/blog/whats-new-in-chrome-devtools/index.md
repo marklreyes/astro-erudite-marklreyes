@@ -8,7 +8,8 @@ tags:
 image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
-
+<div style="--aspect-ratio: 16/9;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XpGa6IzmmQg" frameborder="0" allowfullscreen></iframe>
+</div>
 
 https://speakerdeck.com/addyosmani/whats-new-in-chrome-devtools

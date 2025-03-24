@@ -11,6 +11,8 @@ authors: ["marklreyes"]
 
 Thoughtful and simple explanation of JavaScript's Prototype.
 
+<div style="--aspect-ratio: 16/9;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XskMWBXNbp0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 Thanks to, [https://tylermcginnis.com](https://tylermcginnis.com/beginners-guide-to-javascript-prototype/)

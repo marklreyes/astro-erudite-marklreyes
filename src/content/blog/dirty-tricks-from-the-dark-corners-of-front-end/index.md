@@ -9,6 +9,8 @@ image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 
+<div style="--aspect-ratio: 16/9;">
 <iframe src="https://www.youtube.com/embed/U4xd2ZwMOIk" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
 
 <script async class="speakerdeck-embed" data-id="7635baba682f45a7a4d6d5f49a70223f" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>

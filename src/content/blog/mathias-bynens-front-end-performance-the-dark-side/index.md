@@ -9,8 +9,9 @@ tags:
 image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
-
+<div style="--aspect-ratio: 16/9;">
 <iframe src="https://player.vimeo.com/video/163113209" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen="" allowfullscreen=""></iframe>
+</div>
 
 [Mathias Bynens — Front-End Performance: The Dark Side](https://vimeo.com/163113209) from [Fronteers](https://vimeo.com/fronteers) on [Vimeo](https://vimeo.com).
 

@@ -10,4 +10,6 @@ image: '../../../../public/static/1200x630_default.jpg'
 authors: ["marklreyes"]
 ---
 
+<div style="--aspect-ratio: 16/9;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iMqi55rcR00?list=PLOU2XLYxmsILe6_eGvDN3GyiodoV3qNSC" frameborder="0" allowfullscreen></iframe>
+<div>

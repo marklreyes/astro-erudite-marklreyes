@@ -29,9 +29,10 @@ Meet [Tiffany](https://www.linkedin.com/in/tjchien/), Senior Product Designer at
     - the impact on data collection?
     - the impact on business?
 
-> "Neither end of the \[male/female\] spectrum is a suitable way of expressing the gender I am," Wilson says. "Sometimes I feel 'feminine' and 'masculine' at the same time, and other times I reject the two terms entirely."
+> Neither end of the \[male/female\] spectrum is a suitable way of expressing the gender I am," Wilson says. "Sometimes I feel 'feminine' and 'masculine' at the same time, and other times I reject the two terms entirely.
 >
-> BBC - Beyond 'he' and 'she': The rise of non-binary pronouns
+-- <cite>BBC - Beyond 'he' and 'she': The rise of non-binary pronouns</cite>
+
 
 ## Conclusion
 
