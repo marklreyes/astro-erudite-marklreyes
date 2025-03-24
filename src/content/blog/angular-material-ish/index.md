@@ -72,7 +72,7 @@ I decided to save the previous component as an appetizer to illustrate the stark
 
 ## Conclusion
 
-Outside of styling the improbable, what I found to be most interesting was dabbling with deferrable views on `AppComponent` using blocks like `@defer`, `@loading`, `@error` and `@placeholder`. Was it necessary for a UI this small? Maybe. Maybe not. But employing tools already stuffed inside of your back pocket to help reduce initial bundle size is always a fun thing to explore.
+Outside of styling the improbable, what I found to be most interesting was dabbling with deferrable views on `AppComponent` using blocks like `@defer`, `@loading`, `@error` and `@placeholder`. Was it necessary for a UI this small? Maybe. Maybe not. But entertaining the thought of using tools already stuffed inside of your back pocket are enticing, especially ones that may promote an initial reduction in bundle size.
 
 
 ### Vibe Coding
@@ -85,12 +85,16 @@ Honestly, my mental cardio **DIED** when I couldn't God mode the style palette f
 
 ### About Options Service
 
-I probably could've just stubbed the [data](https://github.com/marklreyes/angular19-custom-select-component/blob/main/src/app/data/data.ts) closer to the components but I wanted to fake an API call to play around with the modern-day way of dependency injection through `inject()` and test out the concept of deferrable views. Big thanks to Mark Thompsen's [Angular 17+ Fundamentals](https://frontendmasters.com/courses/angular-fundamentals/) course on Frontend Masters to play around with the idea. Watch that, and it'll explain why I mucked with an asynchronous `ngOnInit()` lifecycle hook.
+I probably could've just mocked the [data](https://github.com/marklreyes/angular19-custom-select-component/blob/main/src/app/data/data.ts) closer to the components but I wanted to fake an API call to play around with the modern-day way of dependency injection through `inject()` to test out the concept of deferrable views. Big thanks to Mark Thompsen's [Angular 17+ Fundamentals](https://frontendmasters.com/courses/angular-fundamentals/) course on Frontend Masters to play around with the idea. Watch that, and it'll explain why I mucked with an asynchronous `ngOnInit()` lifecycle hook.
 
 ### Final Thoughts
 
-Some of these thoughts were courtesy of habits infused in a pre-renaissance ng-world, so a few more mental model updates are needed but it's been fascinating to see how Angular v17+ has come back to let me know that they've still got it going on as the one-stop shop for single-page web apps.
+Some of these tactics were courtesy of habits infused in a pre-renaissance ng-world, so a few more mental model updates are needed but it's been fascinating to see how Angular v17+ has come back to let me know that they've still got it going on as the one-stop shop for single-page web apps.
 
 Have some fun and feel free to fork the repo or PR back to [Angular 19 Custom Select Components Demo](https://github.com/marklreyes/angular19-custom-select-component). Dependabot is enabled so dependencies are up-to-date!
+
+### View Demo
+- [StackBlitz](https://stackblitz.com/github/marklreyes/angular19-custom-select-component?file=README.md)
+- [GitHub](https://github.com/marklreyes/angular19-custom-select-component)
 
 Thanks and Aloha! 🤙🏾
