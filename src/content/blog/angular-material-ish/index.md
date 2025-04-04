@@ -94,7 +94,7 @@ Some of these tactics were courtesy of habits infused in a pre-renaissance ng-wo
 Have some fun and feel free to fork the repo or PR back to [Angular 19 Custom Select Components Demo](https://github.com/marklreyes/angular19-custom-select-component). Dependabot is enabled so dependencies are up-to-date!
 
 ### View Demo
-- [StackBlitz](https://stackblitz.com/github/marklreyes/angular19-custom-select-component?file=README.md)
+- [StackBlitz](https://stackblitz.com/~/github.com/marklreyes/angular19-custom-select-component?file=package.json)
 - [GitHub](https://github.com/marklreyes/angular19-custom-select-component)
 
 Thanks and Aloha! 🤙🏾
