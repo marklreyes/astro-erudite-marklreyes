@@ -63,7 +63,7 @@ Rather than being so committed to classic HTML form implementations using tags l
 
 ## The Finale
 
-Today, chefs, I prepared for you a coconut-curr...I mean a [functional dropdown menu using the Angular framework](https://stackblitz.com/github/marklreyes/angular19-custom-select-component?file=README.md) to match the design provided by the supplied screenshot.
+Today, chefs, I prepared for you a coconut-curr...I mean a [functional dropdown menu using the Angular framework](https://stackblitz.com/~/github.com/marklreyes/angular19-custom-select-component?file=package.json) to match the design provided by the supplied screenshot.
 
 I decided to save the previous component as an appetizer to illustrate the stark contrast in menu display between this and the respective entrée.
 
