@@ -5,6 +5,7 @@ import type { Link as SocialLink } from '@/consts'
 import { cn } from '@/lib/utils'
 import type { CollectionEntry } from 'astro:content'
 import SocialIcons from './SocialIcons.astro'
+import { Image } from 'astro:assets'
 
 type Props = {
   author: CollectionEntry<'authors'>
@@ -15,9 +16,13 @@ const {
   name,
   avatar,
   bio,
-	belt,
+	bjj,
+	bjjText,
+	scrum,
+	scrumText,
   pronouns,
   github,
+	calendly,
   twitter,
   linkedin,
   website,
@@ -29,6 +34,7 @@ const socialLinks: SocialLink[] = [
   github && { href: github, label: 'GitHub' },
   twitter && { href: twitter, label: 'Twitter' },
   linkedin && { href: linkedin, label: 'LinkedIn' },
+  calendly && { href: calendly, label: 'Calendly' },
   mail && { href: mail, label: 'Email' },
 ].filter(Boolean) as SocialLink[]
 ---
@@ -66,7 +72,16 @@ const socialLinks: SocialLink[] = [
         <p class="text-sm text-muted-foreground">{bio}</p>
       </div>
 			<div class="flex flex-wrap items-center gap-x-2">
-				<p class="text-sm text-muted-foreground">{belt}</p>
+        {scrum && (
+          <div class="flex flex-wrap items-center gap-x-2">
+            <Image src={scrum} alt={scrumText ?? null} class="size-9" />
+          </div>
+        )}
+        {bjj && (
+          <div class="flex flex-wrap items-center gap-x-2">
+            <Image src={bjj} alt={bjjText ?? null} class="size-10" />
+          </div>
+        )}
 			</div>
       <SocialIcons links={socialLinks} />
     </div>
