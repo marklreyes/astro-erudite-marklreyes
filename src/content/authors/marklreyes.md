@@ -2,7 +2,7 @@
 name: 'Mark L. Reyes'
 pronouns: 'he/him'
 avatar: 'https://avatars.githubusercontent.com/u/1628070?v=4'
-bio: "Chronicling my tech stack, side quests on the mic & advocating the important."
+bio: "Digital Technologist chronicling web dev, mic quests & advocating the important."
 bjj: '../../../public/static/Gracie_Barra.png'
 bjjText: 'Gracie Barra Escondido, Purple Belt'
 scrum: '../../../public/static/sa-csm-600.webp'
