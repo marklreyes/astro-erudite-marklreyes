@@ -6,6 +6,7 @@ import Layout from '@/layouts/Layout.astro'
 import Link from '@/components/Link.astro'
 import { Icon } from 'astro-icon/components'
 import { Image } from 'astro:assets'
+import avatar from '../../public/static/profile_avatar.webp'
 
 ---
 <Layout title="Links" description={SITE.DESCRIPTION}>
@@ -15,7 +16,7 @@ import { Image } from 'astro:assets'
 			<div class="flex justify-center mb-4">
 				<Link href="/about">
 					<Image
-						src="https://avatars.githubusercontent.com/u/1628070?v=4"
+						src={avatar}
 						alt="Mark L. Reyes"
 						width={120}
 						height={120}

@@ -1,7 +1,7 @@
 ---
 name: 'Mark L. Reyes'
 pronouns: 'he/him'
-avatar: 'https://avatars.githubusercontent.com/u/1628070?v=4'
+avatar: '../../../public/static/profile_avatar.webp'
 bio: "Digital Technologist chronicling web dev, mic quests & advocating the important."
 bjj: '../../../public/static/Gracie_Barra.png'
 bjjText: 'Gracie Barra Escondido, Purple Belt'
