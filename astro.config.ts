@@ -24,9 +24,6 @@ import netlify from '@astrojs/netlify';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://marklreyes.com',
-  image: {
-    domains: ["avatars.githubusercontent.com"]
-  },
   integrations: [
     tailwind({
       applyBaseStyles: false,
