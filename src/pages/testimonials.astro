@@ -16,7 +16,7 @@ const testimonials = await getCollection('testimonials')
 
 	  <section>
 		<div class="min-w-full">
-		  <h2 class="mb-4 text-2xl font-semibold">Testimonials</h2>
+		  <h1 class="mb-4 text-2xl font-semibold">Testimonials</h1>
 		  <div class="flex flex-col gap-4">
 			{testimonials.map((testimonial) => <TestimonialsCard testimonial={testimonial} />)}
 		  </div>
