@@ -31,7 +31,7 @@ const authors = defineCollection({
 		z.object({
 			name: z.string(),
 			pronouns: z.string().optional(),
-			avatar: image().optional(),
+			avatar: z.string().optional(),
 			bio: z.string().optional(),
 			bjj: image().optional(),
 			bjjText: z.string().optional(),
