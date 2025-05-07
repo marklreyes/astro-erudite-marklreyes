@@ -5,9 +5,26 @@ import { SITE } from '@/consts'
 import Layout from '@/layouts/Layout.astro'
 import Link from '@/components/Link.astro'
 import { Icon } from 'astro-icon/components'
-import { Image } from 'astro:assets'
-import avatar from '../../public/static/profile_avatar.webp'
+import { cn } from '@/lib/utils'
+import { getCollection } from 'astro:content'
+import AvatarComponent from '@/components/ui/avatar'
 
+// Define optional props for page configuration
+type Props = {
+  linkDisabled?: boolean
+}
+
+const { linkDisabled = false } = Astro.props
+
+// Get the author data from the collection
+const authors = await getCollection('authors')
+// Get the first author, or use a specific filter
+const author = authors[0]
+
+const {
+  name,
+  avatar,
+} = author.data
 ---
 <Layout title="Links" description={SITE.DESCRIPTION}>
 	<Container class="flex flex-col gap-y-6">
@@ -15,20 +32,24 @@ import avatar from '../../public/static/profile_avatar.webp'
 		<section class="w-full max-w-md mx-auto mt-8 space-y-4">
 			<div class="flex justify-center mb-4">
 				<Link href="/about">
-					<Image
-						src={avatar}
-						alt="Mark L. Reyes"
-						width={120}
-						height={120}
-						class="rounded-full"
-					/>
+					<AvatarComponent
+					client:load
+					src={avatar}
+					alt={`Avatar of ${name}`}
+					fallback={name[0]}
+					className={cn(
+					  'size-32 rounded-md',
+					  !linkDisabled &&
+						'transition-shadow duration-300 hover:cursor-pointer hover:ring-2 hover:ring-primary',
+					)}
+				  />
 				</Link>
 			</div>
 			<h1 class="text-xl font-bold text-center mb-6">Front End Engineer | Podcast Producer | Advocate @ marklreyes.com</h1>
-			<Link href="https://www.puffprovisions.com/puffprovisionsweekly/issue-313/" external={true} class="block w-full py-3 px-4 bg-[#6bba62] text-black text-center font-medium rounded-lg transition-colors duration-200">
+			<Link href="https://www.puffprovisions.com/puffprovisionsweekly/issue-314/" external={true} class="block w-full py-3 px-4 bg-[#6bba62] text-black text-center font-medium rounded-lg transition-colors duration-200">
 				<div class="flex items-center justify-center w-full">
 					<Icon name="lucide:sprout" class="size-4 mr-2" />
-					<span>Issue 313</span>
+					<span>Issue 314</span>
 				</div>
 			</Link>
 			<Link href="https://desktopathlete.com" external={true} class="block w-full py-3 px-4 bg-[#f39416] text-[#331C40] text-center font-medium rounded-lg transition-colors duration-200">
