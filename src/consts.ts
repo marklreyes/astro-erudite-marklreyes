@@ -26,6 +26,7 @@ export const NAV_LINKS: Link[] = [
   { href: '/blog', label: 'blog' },
   { href: '/about', label: 'about' },
   { href: '/testimonials', label: 'testimonials' },
+  { href: '/contact', label: 'contact' },
   { href: '/tags', label: 'tags' },
 ]
 
