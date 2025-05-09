@@ -157,9 +157,6 @@
 /about-me/											/about	301!
 /experience-summary/								/about	301!
 
-#contact
-/contact/											/links	301!
-
 #podcast
 /allwebsd-podcast/									/tags/podcast-projects	301!
 
