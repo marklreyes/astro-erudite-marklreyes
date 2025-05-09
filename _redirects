@@ -164,5 +164,8 @@
 https://blog.marklreyes.com/upgrading-a-legacy-angular-web-app/	https://marklreyes.com/blog/upgrading-a-legacy-angular-web-app	301!
 # blog.marklreyes.com/* 				https://marklreyes.com/blog/:splat 301!
 
+#Form handling
+/success /contact 200
+
 #fallback
 /*              									https://marklreyes.com
