@@ -29,12 +29,17 @@ import Layout from '@/layouts/Layout.astro'
 		    <p>Something went wrong. Please try again later.</p>
 		  </div>
 
+      <!-- Netlify form pre-render hidden form for detection -->
+      <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message"></textarea>
+      </form>
+
 		  <form
 		    id="contact-form"
 		    name="contact"
 		    method="POST"
-		    netlify-honeypot="bot-field"
-		    data-netlify="true"
 		    class="mt-8 space-y-6"
           >
             <p class="hidden">
@@ -129,9 +134,7 @@ import Layout from '@/layouts/Layout.astro'
           const response = await fetch('/', {
             method: 'POST',
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-            body: new URLSearchParams(
-              Array.from(formData.entries()).map(([key, value]) => [key, String(value)])
-            ).toString()
+            body: new URLSearchParams(formData as any).toString()
           });
 
           if (response.ok) {
