@@ -28,7 +28,7 @@ const ContactForm = () => {
 			if (!response.ok) {
 			  throw new Error(`Form submission failed with status ${response.status}`);
 			}
-			setResponseMessage('Thank you for your message! We\'ll get back to you soon.');
+			setResponseMessage('Thank you for your message! I\'ll get back to you soon.');
 			setFormSubmitted(true);
 			form.reset();
 			// Set submitting to false on success
