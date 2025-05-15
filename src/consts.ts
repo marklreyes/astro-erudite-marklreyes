@@ -17,7 +17,7 @@ export const SITE: Site = {
   DESCRIPTION:
     'Multi-hyphenate specializing in web dev and podcasts based in Southern California. Work with me on your next project!',
   EMAIL: 'mr@marklreyes.com',
-  NUM_POSTS_ON_HOMEPAGE: 2,
+  NUM_POSTS_ON_HOMEPAGE: 3,
   POSTS_PER_PAGE: 3,
   SITEURL: 'https://marklreyes.com',
 }
