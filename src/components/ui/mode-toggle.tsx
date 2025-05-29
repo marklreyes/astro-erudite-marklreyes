@@ -11,6 +11,8 @@ import * as React from 'react'
 export function ModeToggle() {
   const [theme, setThemeState] = React.useState<'theme-light' | 'dark' | 'system'>('theme-light')
   const [isOpen, setIsOpen] = React.useState(false)
+  const menuRef = React.useRef<HTMLDivElement>(null)
+  const triggerRef = React.useRef<HTMLButtonElement>(null)
 
   React.useEffect(() => {
     const isDarkMode = document.documentElement.classList.contains('dark')
@@ -37,20 +39,37 @@ export function ModeToggle() {
   }, [theme])
 
   React.useEffect(() => {
-    const handleViewTransitionStart = () => {
-      setIsOpen(false) // Close the menu when navigation starts
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        menuRef.current &&
+        !menuRef.current.contains(event.target as Node) &&
+        triggerRef.current &&
+        !triggerRef.current.contains(event.target as Node)
+      ) {
+        setIsOpen(false)
+      }
     }
 
-		const handleViewTransitionEnd = () => {
-			setIsOpen(false)
-		}
+    const handleViewTransitionStart = () => {
+      requestAnimationFrame(() => {
+        setIsOpen(false) // Close the menu when navigation starts
+      })
+    }
+
+    const handleViewTransitionEnd = () => {
+      requestAnimationFrame(() => {
+        setIsOpen(false)
+      })
+    }
 
     document.addEventListener('astro:before-swap', handleViewTransitionStart)
-		document.addEventListener('astro:after-swap', handleViewTransitionEnd)
+    document.addEventListener('astro:after-swap', handleViewTransitionEnd)
+    document.addEventListener('click', handleClickOutside)
 
     return () => {
       document.removeEventListener('astro:before-swap', handleViewTransitionStart)
-			document.removeEventListener('astro:after-swap', handleViewTransitionEnd)
+      document.removeEventListener('astro:after-swap', handleViewTransitionEnd)
+      document.removeEventListener('click', handleClickOutside)
     }
   }, [])
 
@@ -58,6 +77,7 @@ export function ModeToggle() {
     <DropdownMenu open={isOpen} onOpenChange={setIsOpen} modal={false}>
       <DropdownMenuTrigger asChild>
         <Button
+          ref={triggerRef}
           variant="outline"
           size="icon"
           className="group relative z-10"
@@ -68,7 +88,7 @@ export function ModeToggle() {
           <span className="sr-only">Toggle theme</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end" className="bg-background">
+      <DropdownMenuContent ref={menuRef} align="end" className="bg-background">
         <DropdownMenuItem onClick={() => setThemeState('theme-light')}>
           <Sun className="mr-2 size-4" />
           <span>Light</span>

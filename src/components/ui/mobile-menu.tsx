@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Button } from '@/components/ui/button'
 import {
   DropdownMenu,
@@ -11,40 +11,59 @@ import { Menu } from 'lucide-react'
 
 const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false)
+  const menuRef = useRef<HTMLDivElement>(null)
+  const triggerRef = useRef<HTMLButtonElement>(null)
 
   useEffect(() => {
-    const handleViewTransitionStart = () => {
-      setIsOpen(false)
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        menuRef.current &&
+        !menuRef.current.contains(event.target as Node) &&
+        triggerRef.current &&
+        !triggerRef.current.contains(event.target as Node)
+      ) {
+        setIsOpen(false)
+      }
     }
 
-		const handleViewTransitionEnd = () => {
-			setIsOpen(false)
-		}
+    const handleViewTransitionStart = () => {
+      requestAnimationFrame(() => {
+        setIsOpen(false)
+      })
+    }
+
+    const handleViewTransitionEnd = () => {
+      requestAnimationFrame(() => {
+        setIsOpen(false)
+      })
+    }
 
     document.addEventListener('astro:before-swap', handleViewTransitionStart)
-		document.addEventListener('astro:after-swap', handleViewTransitionEnd)
-
+    document.addEventListener('astro:after-swap', handleViewTransitionEnd)
+    document.addEventListener('click', handleClickOutside)
 
     return () => {
       document.removeEventListener('astro:before-swap', handleViewTransitionStart)
-			document.removeEventListener('astro:after-swap', handleViewTransitionEnd)
-		}
+      document.removeEventListener('astro:after-swap', handleViewTransitionEnd)
+      document.removeEventListener('click', handleClickOutside)
+    }
   }, [])
 
   return (
     <DropdownMenu open={isOpen} onOpenChange={setIsOpen} modal={false}>
       <DropdownMenuTrigger asChild>
-				<Button
-					variant="outline"
-					size="icon"
-					className="md:hidden relative z-10"
-					title="Menu"
-				>
-					<Menu className="h-5 w-5" />
-					<span className="sr-only">Toggle menu</span>
-				</Button>
+        <Button
+          ref={triggerRef}
+          variant="outline"
+          size="icon"
+          className="md:hidden relative z-10"
+          title="Menu"
+        >
+          <Menu className="h-5 w-5" />
+          <span className="sr-only">Toggle menu</span>
+        </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end" className="bg-background">
+      <DropdownMenuContent ref={menuRef} align="end" className="bg-background">
         {NAV_LINKS.map((item) => (
           <DropdownMenuItem key={item.href} asChild>
             <a
