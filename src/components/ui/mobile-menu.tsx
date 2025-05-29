@@ -11,49 +11,31 @@ import { Menu } from 'lucide-react'
 
 const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false)
-  const menuRef = useRef<HTMLDivElement>(null)
-  const triggerRef = useRef<HTMLButtonElement>(null)
 
   useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (
-        menuRef.current &&
-        !menuRef.current.contains(event.target as Node) &&
-        triggerRef.current &&
-        !triggerRef.current.contains(event.target as Node)
-      ) {
-        setIsOpen(false)
-      }
-    }
-
     const handleViewTransitionStart = () => {
-      requestAnimationFrame(() => {
-        setIsOpen(false)
-      })
-    }
-
-    const handleViewTransitionEnd = () => {
-      requestAnimationFrame(() => {
-        setIsOpen(false)
-      })
+      setIsOpen(false)
     }
 
     document.addEventListener('astro:before-swap', handleViewTransitionStart)
-    document.addEventListener('astro:after-swap', handleViewTransitionEnd)
-    document.addEventListener('click', handleClickOutside)
 
     return () => {
-      document.removeEventListener('astro:before-swap', handleViewTransitionStart)
-      document.removeEventListener('astro:after-swap', handleViewTransitionEnd)
-      document.removeEventListener('click', handleClickOutside)
+      document.removeEventListener(
+        'astro:before-swap',
+        handleViewTransitionStart,
+      )
     }
   }, [])
 
   return (
-    <DropdownMenu open={isOpen} onOpenChange={setIsOpen} modal={false}>
-      <DropdownMenuTrigger asChild>
+    <DropdownMenu open={isOpen} onOpenChange={(val) => setIsOpen(val)}>
+      <DropdownMenuTrigger
+        asChild
+        onClick={() => {
+          setIsOpen((val) => !val)
+        }}
+      >
         <Button
-          ref={triggerRef}
           variant="outline"
           size="icon"
           className="md:hidden relative z-10"
@@ -63,7 +45,7 @@ const MobileMenu = () => {
           <span className="sr-only">Toggle menu</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent ref={menuRef} align="end" className="bg-background">
+      <DropdownMenuContent align="end" className="bg-background">
         {NAV_LINKS.map((item) => (
           <DropdownMenuItem key={item.href} asChild>
             <a
