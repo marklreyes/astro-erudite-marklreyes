@@ -34,15 +34,15 @@ const MobileMenu = () => {
   return (
     <DropdownMenu open={isOpen} onOpenChange={setIsOpen} modal={false}>
       <DropdownMenuTrigger asChild>
-        <Button
-          variant="outline"
-          size="icon"
-          className="md:hidden"
-          title="Menu"
-        >
-          <Menu className="h-5 w-5" />
-          <span className="sr-only">Toggle menu</span>
-        </Button>
+				<Button
+					variant="outline"
+					size="icon"
+					className="md:hidden relative z-10"
+					title="Menu"
+				>
+					<Menu className="h-5 w-5" />
+					<span className="sr-only">Toggle menu</span>
+				</Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="bg-background">
         {NAV_LINKS.map((item) => (

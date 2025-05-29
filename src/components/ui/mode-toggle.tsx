@@ -60,7 +60,7 @@ export function ModeToggle() {
         <Button
           variant="outline"
           size="icon"
-          className="group"
+          className="group relative z-10"
           title="Toggle theme"
         >
           <Sun className="size-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
