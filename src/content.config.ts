@@ -56,6 +56,7 @@ const projects = defineCollection({
       tags: z.array(z.string()),
       image: image(),
       link: z.string().url(),
+			badgeStatus: z.string().optional(),
     }),
 })
 
