@@ -3,24 +3,13 @@ import Link from '@/components/Link.astro'
 import { Badge } from '@/components/ui/badge'
 import { Image } from 'astro:assets'
 import type { CollectionEntry } from 'astro:content'
+import { parseMarkdownBadge } from '@/lib/markdown-badge'
 
 type Props = {
   project: CollectionEntry<'projects'>
 }
 
 const { project } = Astro.props
-
-// Function to parse Markdown badge syntax and convert to HTML
-function parseMarkdownBadge(markdownString: string): string {
-  // Regular expression to match Markdown badge syntax: [![alt text](image url)](link url)
-  const badgeRegex = /\[!\[([^\]]*)\]\(([^)]+)\)\]\(([^)]+)\)/g;
-
-  return markdownString.replace(badgeRegex, (match, altText, imageUrl, linkUrl) => {
-    return `<a href="${linkUrl}" target="_blank" rel="noopener noreferrer">
-              <img src="${imageUrl}" alt="${altText}" />
-            </a>`;
-  });
-}
 
 // Parse the badge status if it exists
 const parsedBadgeStatus = project.data.badgeStatus ? parseMarkdownBadge(project.data.badgeStatus) : null;
