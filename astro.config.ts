@@ -77,5 +77,10 @@ export default defineConfig({
     enabled: false,
   },
 
+	image: {
+		responsiveStyles: true,
+		layout: 'constrained',
+	},
+
   adapter: netlify(),
 })
