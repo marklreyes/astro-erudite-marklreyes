@@ -24,7 +24,7 @@ const iconMap = {
 }
 
 const getSocialLink = ({ href, label }: SocialLink) => ({
-  href: href,
+  href: label === 'Email' ? `mailto:${href}` : href,
   ariaLabel: label,
   iconName:
     iconMap[label as keyof typeof iconMap] || 'lucide:message-circle-question',
