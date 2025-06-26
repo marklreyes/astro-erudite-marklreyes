@@ -18,12 +18,13 @@ const iconMap = {
   Calendly: 'lucide:calendar-check',
   LinkedIn: 'lucide:linkedin',
   Twitter: 'lucide:twitter',
+  Coffee: 'lucide:coffee',
   Email: 'lucide:mail',
   RSS: 'lucide:rss',
 }
 
 const getSocialLink = ({ href, label }: SocialLink) => ({
-  href: label === 'Email' ? `mailto:${href}` : href,
+  href: href,
   ariaLabel: label,
   iconName:
     iconMap[label as keyof typeof iconMap] || 'lucide:message-circle-question',
