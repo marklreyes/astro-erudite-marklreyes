@@ -14,8 +14,7 @@ export type Link = {
 
 export const SITE: Site = {
   TITLE: 'Mark L. Reyes',
-  DESCRIPTION:
-    'Multi-hyphenate specializing in web dev and podcasts based in Southern California. Work with me on your next project!',
+  DESCRIPTION: 'Digital Technologist Blending Code, Storytelling, and Culture',
   EMAIL: 'mr@marklreyes.com',
   NUM_POSTS_ON_HOMEPAGE: 3,
   POSTS_PER_PAGE: 3,
