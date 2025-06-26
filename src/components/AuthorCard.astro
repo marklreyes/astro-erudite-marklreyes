@@ -18,8 +18,13 @@ const {
   bio,
 	bjj,
 	bjjText,
+	bjjUrl,
 	scrum,
 	scrumText,
+	scrumUrl,
+	ucExtension,
+	ucExtensionText,
+	ucExtensionUrl,
   pronouns,
   github,
 	calendly,
@@ -74,15 +79,26 @@ const socialLinks: SocialLink[] = [
 			<div class="flex flex-wrap items-center gap-x-2">
         {scrum && (
           <div class="flex flex-wrap items-center gap-x-2">
-            <Image src={scrum} alt={scrumText ?? null} class="size-9" />
+						<Link href={`${scrumUrl}`} external={true} rel="noopener noreferrer">
+            	<Image src={scrum} alt={scrumText ?? null} class="size-9" />
+						</Link>
           </div>
         )}
         {bjj && (
           <div class="flex flex-wrap items-center gap-x-2">
-            <Image src={bjj} alt={bjjText ?? null} class="size-9" />
+						<Link href={`${bjjUrl}`} external={true} rel="noopener noreferrer">
+            	<Image src={bjj} alt={bjjText ?? null} class="size-9" />
+						</Link>
           </div>
         )}
-			</div>
+        {ucExtension && (
+          <div class="flex flex-wrap items-center gap-x-2">
+            <Link href={`${ucExtensionUrl}`} external={true} rel="noopener noreferrer">
+              <Image src={ucExtension} alt={ucExtensionText ?? null} class="size-9" />
+            </Link>
+          </div>
+        )}
+      </div>
       <SocialIcons links={socialLinks} />
     </div>
   </div>
