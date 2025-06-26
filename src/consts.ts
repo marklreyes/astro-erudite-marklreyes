@@ -33,6 +33,7 @@ export const NAV_LINKS: Link[] = [
 export const SOCIAL_LINKS: Link[] = [
   { href: 'https://www.linkedin.com/in/marklreyes', label: 'LinkedIn' },
   { href: 'https://github.com/marklreyes', label: 'GitHub' },
+  { href: 'https://buymeacoffee.com/markreyes', label: 'Coffee' },
   { href: 'https://calendly.com/markreyes', label: 'Calendly' },
   { href: 'mr@marklreyes.com', label: 'Email' },
   { href: '/rss.xml', label: 'RSS' },
