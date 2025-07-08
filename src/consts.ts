@@ -1,5 +1,6 @@
 export type Site = {
   TITLE: string
+	TAGLINE: string
   DESCRIPTION: string
   EMAIL: string
   NUM_POSTS_ON_HOMEPAGE: number
@@ -14,6 +15,7 @@ export type Link = {
 
 export const SITE: Site = {
   TITLE: 'Mark L. Reyes',
+	TAGLINE: 'Blending Code, Storytelling & Culture',
   DESCRIPTION: 'Digital Technologist Blending Code, Storytelling, and Culture',
   EMAIL: 'mr@marklreyes.com',
   NUM_POSTS_ON_HOMEPAGE: 3,

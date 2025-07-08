@@ -80,6 +80,7 @@ Edit the `src/consts.ts` file to update your site's metadata, navigation links, 
 ```typescript
 export const SITE: Site = {
   TITLE: 'Mark L. Reyes',
+	TAGLINE: 'Blending Code, Storytelling & Culture',
   DESCRIPTION:
     'Digital Technologist Blending Code, Storytelling, and Culture',
   EMAIL: 'mr@marklreyes.com',
