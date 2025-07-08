@@ -5,8 +5,9 @@ import MobileMenu from '@/components/ui/mobile-menu'
 import { ModeToggle } from '@/components/ui/mode-toggle'
 import { NAV_LINKS, SITE } from '@/consts'
 import { Image } from 'astro:assets'
-import logoDefault from '../../public/static/mlr_logo_vector.svg'
-import logoNoBg from '../../public/static/mlr_logo_vector_nobg.svg'
+
+import logoDefault from '@/assets/mlr_logo_vector.svg'
+import logoNoBg from '@/assets/mlr_logo_vector_nobg.svg'
 ---
 
 <header
@@ -20,12 +21,12 @@ import logoNoBg from '../../public/static/mlr_logo_vector_nobg.svg'
           href="/"
           class="flex flex-shrink-0 items-center gap-2 text-xl font-semibold transition-colors duration-300 hover:text-primary"
         >
-						<Image src={logoDefault} alt="Logo" class="size-8 dark:hidden" priority/>
-						<Image src={logoNoBg} alt="Logo" class="size-8 hidden dark:block" priority/>
+          <Image src={logoDefault} alt="Logo" class="w-8 h-8 dark:hidden" />
+          <Image src={logoNoBg} alt="Logo" class="w-8 h-8 hidden dark:block" />
           {SITE.TITLE}
         </Link>
         <p class="text-xs text-muted-foreground sm:text-sm">
-						Blending Code, Storytelling & Culture
+          Blending Code, Storytelling & Culture
         </p>
       </div>
       <div class="flex items-center gap-2 md:gap-4">
@@ -41,8 +42,8 @@ import logoNoBg from '../../public/static/mlr_logo_vector_nobg.svg'
             ))
           }
         </nav>
-				<MobileMenu client:load transition:persist />
-				<ModeToggle client:load transition:persist />
+        <MobileMenu client:load transition:persist />
+        <ModeToggle client:load transition:persist />
       </div>
     </div>
   </Container>
