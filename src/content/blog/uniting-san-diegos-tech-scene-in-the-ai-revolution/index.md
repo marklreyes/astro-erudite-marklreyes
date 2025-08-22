@@ -5,6 +5,7 @@ date: 2025-08-22
 tags:
   - "personal-log"
   - "podcast-projects"
+  - "ai"
 image: '../../../../public/static/1200x630_allwebsd.jpg'
 authors: ["marklreyes"]
 ---
