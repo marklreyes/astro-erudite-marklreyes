@@ -1,6 +1,6 @@
 ---
 title: "Uniting San Diego's Tech Scene in the AI Revolution"
-description: "I’ve been testing out MindStudio, and it feels like my new antidote to creative friction."
+description: "A playful take on AI, creativity, and storytelling."
 date: 2025-08-22
 tags:
   - "personal-log"
