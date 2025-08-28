@@ -1,7 +1,7 @@
 ---
 title: "Web Dev Reimagined and a San Diegan's New Beginning"
 description: "Yet another playful take on storytelling using MindStudio."
-date: 2025-08-22
+date: 2025-08-28
 tags:
   - "personal-log"
   - "podcast-projects"
