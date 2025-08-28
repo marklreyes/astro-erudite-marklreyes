@@ -3,5 +3,5 @@ quote: 'Mark was able to connect with students of various reading levels, techno
 name: 'Ashley Wirth'
 image: '../../../public/static/logo_200x200.jpg'
 role: 'was a client of Mark’s'
-link: '../../../public/static/Letter-of-Recommendation-Mrs-Ashley-Wirth.pdf'
+link: '/static/Letter-of-Recommendation-Mrs-Ashley-Wirth.pdf'
 ---
