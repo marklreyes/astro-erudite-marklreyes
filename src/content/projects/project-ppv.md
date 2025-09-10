@@ -1,6 +1,6 @@
 ---
 name: 'PuffProvisions.com'
-description: 'California Proposition 64 Project.'
+description: 'California Proposition 64 Advocacy Project.'
 tags: ['Astro', 'React', 'Podcast', 'HTML', 'CSS', 'Tailwind', 'TypeScript', 'Netlify']
 image: '../../../public/static/1200x630_project_puffprovisions.jpg'
 link: 'https://puffprovisions.com'
