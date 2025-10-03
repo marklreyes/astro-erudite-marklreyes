@@ -1,5 +1,5 @@
 ---
-title: "When Burnout Became A Reality"
+title: "The Day Burnout Became A Reality"
 description: "Burnout isn’t the end—it’s a reset. Explore real stories, lessons, and practical tips on pausing, reconnecting, and finding balance in your career."
 date: 2025-10-03
 tags:
