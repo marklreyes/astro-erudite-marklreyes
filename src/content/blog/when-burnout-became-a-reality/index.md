@@ -33,7 +33,15 @@ Here’s what’s helped me in the thick of burnout, a sabbatical, and a career 
 4. Move of the Day
 5. Do It For You, Not the Resume
 
----
+* * *
+
+<iframe src="https://castbox.fm/app/castbox/player/id2933770/id853171387?v=8.22.11&autoplay=0" frameborder="0" width="100%" height="500"></iframe>
+
+* * *
+
+[![Join the movement and bridge the digital divide](../../../../public/static/970x90_ad_sdff.jpg)](https://sdfutures.org/support-sdff)
+
+* * *
 
 ## 1. Pen & Paper
 
