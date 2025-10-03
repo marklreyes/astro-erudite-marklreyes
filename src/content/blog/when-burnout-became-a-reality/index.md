@@ -37,7 +37,8 @@ Here’s what’s helped me in the thick of burnout, a sabbatical, and a career 
 
 ## 1. Pen & Paper
 
-> “I trust the weakest pen more than the strongest memory.” – Tim Ferriss
+> I trust the weakest pen more than the strongest memory.
+-- <cite>Tim Ferriss</cite>
 
 Ferriss also coined the term *brain vomit* — which, gross as it sounds, was exactly what I needed. My head was jammed with thoughts swirling like a blender on high, and writing them down became the release valve.
 
@@ -49,7 +50,8 @@ If a thought kept repeating across days, that was my signal it needed more atten
 
 ## 2. Phone a Friend – Virtual
 
-> “Friendship is unnecessary, like philosophy, like art... It has no survival value; rather it is one of those things which give value to survival.” – C.S. Lewis
+> Friendship is unnecessary, like philosophy, like art... It has no survival value; rather it is one of those things which give value to survival.
+-- <cite>C.S. Lewis</cite>
 
 There’s something downright intoxicating about reconnecting with someone you haven’t talked to in ages. Seriously, try it today. DM or call someone you haven’t spoken with in months. Anyone but your ex — unless you want a different kind of burnout, haha.
 
@@ -59,7 +61,8 @@ Just don’t go digging years back to that one random acquaintance. Otherwise, y
 
 ## 3. Phone a Friend – IRL
 
-> “Friendship is the hardest thing in the world to explain... But if you haven’t learned the meaning of friendship, you really haven’t learned anything.” – Muhammad Ali
+> Friendship is the hardest thing in the world to explain... But if you haven’t learned the meaning of friendship, you really haven’t learned anything.
+-- <cite>Muhammad Ali</cite>
 
 This one hits different. Face-to-face matters. And no, you don’t need to book a weekend bender at an Airbnb to get it. Coffee works just fine.
 
@@ -69,7 +72,8 @@ For me, it’s a tall hazelnut oat milk latte. One hour, phone silenced, just ta
 
 ## 4. Move of the Day
 
-> “If you can’t fly, then run. If you can’t run, then walk. If you can’t walk, then crawl — but whatever you do, you have to keep moving forward.” – Martin Luther King, Jr.
+> If you can’t fly, then run. If you can’t run, then walk. If you can’t walk, then crawl — but whatever you do, you have to keep moving forward.
+-- <cite>Martin Luther King, Jr.</cite>
 
 I don’t “work out” anymore. Back in the day, workouts meant chasing vanity muscles and late-night aesthetics. Now, it’s about function. Staying strong for my family. Staying present.
 
@@ -79,7 +83,8 @@ In Jiu Jitsu, some instructors promote you if you can successfully apply a new m
 
 ## 5. Do It For You, Not the Resume
 
-> “The irony is that this kind of pause is exactly what makes me better at the work when I come back, but the industry isn’t built to reward that. We’re wired for velocity. We celebrate the visible wins.” – Ashley Willis, GitHub
+> The irony is that this kind of pause is exactly what makes me better at the work when I come back, but the industry isn’t built to reward that. We’re wired for velocity. We celebrate the visible wins.
+-- <cite>Ashley Willis, GitHub</cite>
 
 Career gaps can feel terrifying. No Teams notifications. No calendar invites. No dopamine hit from “being busy.” But here’s the thing: not everything needs to produce a bullet point for your LinkedIn profile.
 
@@ -103,7 +108,8 @@ So yeah — burnout sucks. But it doesn’t have to be the end of your story. Pa
 
 I’ll leave you with this:
 
-> “The only way to be truly satisfied is to do what you believe is great work.” – Steve Jobs
+> The only way to be truly satisfied is to do what you believe is great work.
+-- <cite>Steve Jobs</cite>
 
 Cheers, friends. Here’s to finding your version of “great work.”
 
