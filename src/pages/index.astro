@@ -8,7 +8,6 @@ import {
   CardContent,
   CardDescription,
   CardHeader,
-  CardTitle,
 } from '@/components/ui/card'
 import { SITE } from '@/consts'
 import Layout from '@/layouts/Layout.astro'
@@ -25,7 +24,7 @@ const blog = (await getCollection('blog'))
     <section>
       <Card>
         <CardHeader>
-          <CardTitle className="text-3xl">multi-hyphenate</CardTitle>
+          <h1 class="text-3xl">multi-hyphenate</h1>
 						<CardDescription className="flex items-center gap-1">
 									<button
 									id="pronounceBtn"
