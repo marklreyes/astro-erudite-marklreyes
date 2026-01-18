@@ -23,7 +23,9 @@ import netlify from '@astrojs/netlify';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://marklreyes.com',
+  site: process.env.NODE_ENV === 'development'
+    ? 'http://localhost:1234'
+    : 'https://marklreyes.com',
   integrations: [
     tailwind({
       applyBaseStyles: false,
