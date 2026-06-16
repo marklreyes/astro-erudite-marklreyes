@@ -25,6 +25,9 @@ const {
 	ucExtension,
 	ucExtensionText,
 	ucExtensionUrl,
+	hubspotAcademy,
+	hubspotAcademyText,
+	hubspotAcademyUrl,
   pronouns,
   github,
 	calendly,
@@ -95,6 +98,13 @@ const socialLinks: SocialLink[] = [
           <div class="flex flex-wrap items-center gap-x-2">
             <Link href={`${ucExtensionUrl}`} external={true} rel="noopener noreferrer">
               <Image src={ucExtension} alt={ucExtensionText ?? null} class="size-9" />
+            </Link>
+          </div>
+        )}
+        {hubspotAcademy && (
+          <div class="flex flex-wrap items-center gap-x-2">
+            <Link href={`${hubspotAcademyUrl}`} external={true} rel="noopener noreferrer">
+              <Image src={hubspotAcademy} alt={hubspotAcademyText ?? null} class="size-9" />
             </Link>
           </div>
         )}
