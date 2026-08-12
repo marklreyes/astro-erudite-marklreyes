@@ -14,7 +14,12 @@ export function formatDate(date: Date) {
 }
 
 export function readingTime(html: string) {
-  const textOnly = html.replace(/<[^>]+>/g, '')
+  let textOnly = html
+  let previous: string
+  do {
+    previous = textOnly
+    textOnly = textOnly.replace(/<[^>]+>/g, '')
+  } while (textOnly !== previous)
   const wordCount = textOnly.split(/\s+/).length
   const readingTimeMinutes = (wordCount / 200 + 1).toFixed()
   return `${readingTimeMinutes} min read`
