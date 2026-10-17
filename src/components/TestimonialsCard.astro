@@ -2,7 +2,6 @@
 import Link from '@/components/Link.astro'
 import { Image } from 'astro:assets'
 import type { CollectionEntry } from 'astro:content'
-import { Card, CardContent, } from '@/components/ui/card'
 
 type Props = {
   testimonial: CollectionEntry<'testimonials'>
@@ -11,38 +10,33 @@ type Props = {
 const { testimonial } = Astro.props
 ---
 
-<div
-  class="not-prose rounded-xl border p-4 transition-colors duration-300 ease-in-out hover:bg-secondary/50"
->
-<Link
-href={testimonial.data.link}
-class="flex flex-col gap-4 sm:flex-row"
-external
->
-  <Card className="bg-inherit border-0">
-	<CardContent>
-	  <q class="text-gray-600 dark:text-gray-300">
-		{testimonial.data.quote}
-	  </q>
-	  <div class="mt-6 flex gap-3">
-		<span class="inline-flex">
-		  <Image
-			class="h-10 w-10"
-			alt={testimonial.data.name}
-			src={testimonial.data.image}
-			priority
-		  />
-		</span>
-		<div>
-		  <p class="text-sm font-semibold text-gray-900 dark:text-white">
-			{testimonial.data.name}
-		  </p>
-		  <p class="text-sm text-gray-500 dark:text-gray-400">
-			{testimonial.data.role}
-		  </p>
-		</div>
-	  </div>
-	</CardContent>
-  </Card>
-</Link>
+<div class="not-prose rounded-xl border p-6 transition-colors duration-300 ease-in-out hover:bg-secondary/50">
+  <Link href={testimonial.data.link} class="block" external>
+    <blockquote class="relative border-l-4 border-primary pl-5">
+      <!-- decorative large quote mark -->
+      <span
+        aria-hidden="true"
+        class="pointer-events-none absolute -top-3 -left-1 font-serif text-6xl leading-none text-primary/25 select-none"
+      >&ldquo;</span>
+      <p class="text-base font-medium italic leading-relaxed text-foreground">
+        {testimonial.data.quote}
+      </p>
+    </blockquote>
+    <div class="mt-5 flex items-center gap-3 pl-5">
+      <Image
+        class="h-10 w-10 rounded-full object-cover ring-2 ring-primary/30"
+        alt={testimonial.data.name}
+        src={testimonial.data.image}
+        priority
+      />
+      <div>
+        <p class="text-sm font-semibold text-foreground">
+          {testimonial.data.name}
+        </p>
+        <p class="text-xs text-muted-foreground">
+          {testimonial.data.role}
+        </p>
+      </div>
+    </div>
+  </Link>
 </div>

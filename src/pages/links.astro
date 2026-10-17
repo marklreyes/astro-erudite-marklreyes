@@ -46,54 +46,70 @@ const {
 				</Link>
 			</div>
 			<h1 class="text-xl font-bold text-center mb-6">Digital Technologist Blending Code, Storytelling, and Culture</h1>
+			<Link href="https://tophost.org/2026/mark-reyes" external={true} class="shake block w-full py-3 px-4 bg-[#ED1C24] text-white text-left font-medium rounded-lg transition-colors duration-200">
+				<div class="flex items-center justify-start w-full">
+					<Icon name="lucide:mic" class="size-4 mr-2" />
+					<span>Support My Top Host Run.</span>
+				</div>
+			</Link>
 			<Link href="/contact" class="block w-full py-3 px-4 bg-white text-black text-left font-medium rounded-lg transition-colors duration-200">
 				<div class="flex items-center justify-start w-full">
 					<Icon name="lucide:mail" class="size-4 mr-2" />
-					<span>Drop me a line if you want to chat.</span>
+					<span>Let's chat.</span>
 				</div>
 			</Link>
 			<Link href="https://calendly.com/markreyes" external={true} class="block w-full py-3 px-4 bg-[#007bff] text-white text-left font-medium rounded-lg transition-colors duration-200">
 				<div class="flex items-center justify-start w-full">
 					<Icon name="lucide:calendar-1" class="size-4 mr-2" />
-					<span>Grab 15 minutes on my calendar here.</span>
-				</div>
-			</Link>
-			<Link href="https://www.rollops.pro/mark" external={true} class="block w-full py-3 px-4 bg-[#9b1421] text-white text-left font-medium rounded-lg transition-colors duration-200">
-				<div class="flex items-center justify-start w-full">
-					<Icon name="lucide:hand-fist" class="size-4 mr-2" />
-					<span>I have a special deal just for gym owners.</span>
+					<span>Book 15 minutes.</span>
 				</div>
 			</Link>
 			<Link href="https://desktopathlete.com" external={true} class="block w-full py-3 px-4 bg-[#f39416] text-[#331C40] text-left font-medium rounded-lg transition-colors duration-200">
 				<div class="flex items-center justify-start w-full">
 					<Icon name="lucide:biceps-flexed" class="size-4 mr-2" />
-					<span>Check out the AI tool I built for fitness.</span>
+					<span>My fitness AI tool.</span>
 				</div>
 			</Link>
 			<Link href="https://allwebsd.com" external={true} class="block w-full py-3 px-4 bg-[#2F241D] text-[#FFC425] text-left font-medium rounded-lg transition-colors duration-200">
 				<div class="flex items-center justify-start w-full">
 					<Icon name="lucide:bot" class="size-4 mr-2" />
-					<span>Catch my podcast on all things San Diego tech.</span>
+					<span>San Diego tech podcast.</span>
 				</div>
 			</Link>
 			<Link href="https://shoutoutsocal.com/meet-mark-reyes-web-developer-podcast-host-cannabis-advocate-and-more/" external={true} class="block w-full py-3 px-4 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 hover:opacity-90 text-black text-left font-medium rounded-lg transition-opacity duration-200">
 				<div class="flex items-center justify-start w-full">
 					<Icon name="lucide:book-open-check" class="size-4 mr-2" />
-					<span>See what I shared in my ShoutoutSocal interview.</span>
+					<span>My ShoutoutSocal interview.</span>
 				</div>
 			</Link>
 			<Link href="https://buymeacoffee.com/markreyes" external={true} class="block w-full py-3 px-4 bg-[#FFDD00] text-[#0D0C22] text-left font-medium rounded-lg transition-colors duration-200">
 				<div class="flex items-center justify-start w-full">
 					<Icon name="lucide:coffee" class="size-4 mr-2" />
-					<span>Buy me a coffee to keep the projects coming.</span>
+					<span>Buy me a coffee.</span>
 				</div>
 			</Link>
 			<Link href="https://www.puffprovisions.com/links" external={true} class="block w-full py-3 px-4 bg-[#6bba62] text-black text-left font-medium rounded-lg transition-colors duration-200">
 				<div class="flex items-center justify-start w-full">
 					<Icon name="lucide:sprout" class="size-4 mr-2" />
-					<span>Take a look at what I’m growing and farming.</span>
+					<span>See what I'm growing.</span>
 				</div>
 			</Link>
 		</section>
 	</Container>
 </Layout>
+
+<style>
+	@keyframes shake {
+		0%, 100% { transform: translateX(0) rotate(0deg); }
+		15% { transform: translateX(-4px) rotate(-0.5deg); }
+		30% { transform: translateX(4px) rotate(0.5deg); }
+		45% { transform: translateX(-3px) rotate(-0.3deg); }
+		60% { transform: translateX(3px) rotate(0.3deg); }
+		75% { transform: translateX(-1px); }
+	}
+
+	.shake {
+		animation: shake 3s ease-in-out infinite;
+		animation-delay: 1.5s;
+	}
+</style>
